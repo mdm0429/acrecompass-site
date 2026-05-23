@@ -1,7 +1,106 @@
-/farm-loans           /farm-loans.html           200
-/usda-programs        /usda-programs.html        200
-/crop-insurance       /crop-insurance.html       200
-/lenders              /lenders.html              200
-/about                /about.html                200
-/how-we-rate-lenders  /how-we-rate-lenders.html  200
-/advertiser-disclosure /advertiser-disclosure.html 200
+# ── Hub pages (clean URLs) ──
+/farm-loans                       /farm-loans.html                       200
+/farm-loans/                      /farm-loans.html                       200
+/usda-programs                    /usda-programs.html                    200
+/usda-programs/                   /usda-programs.html                    200
+/crop-insurance                   /crop-insurance.html                   200
+/crop-insurance/                  /crop-insurance.html                   200
+/lenders                          /lenders.html                          200
+/lenders/                         /lenders.html                          200
+/about                            /about.html                            200
+/about/                           /about.html                            200
+/how-we-rate-lenders              /how-we-rate-lenders.html              200
+/how-we-rate-lenders/             /how-we-rate-lenders.html              200
+/advertiser-disclosure            /advertiser-disclosure.html            200
+/advertiser-disclosure/           /advertiser-disclosure.html            200
+
+# ── Calculators ──
+/calculators                      /calculators-farm-loan.html            200
+/calculators/                     /calculators-farm-loan.html            200
+/calculators/farm-loan            /calculators-farm-loan.html            200
+/calculators/farm-loan/           /calculators-farm-loan.html            200
+/calculators/loan-payment         /calculators-farm-loan.html            200
+/calculators/loan-payment/        /calculators-farm-loan.html            200
+/calculators/lease-vs-buy         /calculators-lease-vs-buy.html         200
+/calculators/lease-vs-buy/        /calculators-lease-vs-buy.html         200
+
+# ── Farm loans ──
+/farm-loans/operating             /farm-loans-operating.html             200
+/farm-loans/operating/            /farm-loans-operating.html             200
+/farm-loans/equipment             /farm-loans-equipment.html             200
+/farm-loans/equipment/            /farm-loans-equipment.html             200
+/farm-loans/land                  /farm-loans-ownership.html             200
+/farm-loans/land/                 /farm-loans-ownership.html             200
+/farm-loans/ownership             /farm-loans-ownership.html             200
+/farm-loans/ownership/            /farm-loans-ownership.html             200
+/farm-loans/beginning-farmer      /farm-loans-beginning-farmer.html      200
+/farm-loans/beginning-farmer/     /farm-loans-beginning-farmer.html      200
+/farm-loans/emergency             /farm-loans-emergency.html             200
+/farm-loans/emergency/            /farm-loans-emergency.html             200
+/farm-loans/best                  /farm-loans-best.html                  200
+/farm-loans/best/                 /farm-loans-best.html                  200
+/operating-loans                  /farm-loans-operating.html             200
+/equipment-financing              /farm-loans-equipment.html             200
+/beginning-farmer                 /farm-loans-beginning-farmer.html      200
+/beginning-farmer-loans           /farm-loans-beginning-farmer.html      200
+/best-farm-loans-2026             /farm-loans-best.html                  200
+/land-loans                       /farm-loans-ownership.html             200
+
+# ── Crop insurance ──
+/crop-insurance/how-it-works      /crop-insurance-how-it-works.html      200
+/crop-insurance/how-it-works/     /crop-insurance-how-it-works.html      200
+/crop-insurance/aph               /crop-insurance-aph.html               200
+/crop-insurance/aph/              /crop-insurance-aph.html               200
+/crop-insurance/revenue-protection   /crop-insurance-revenue-protection.html  200
+/crop-insurance/revenue-protection/  /crop-insurance-revenue-protection.html  200
+/crop-insurance/wfrp              /crop-insurance-wfrp.html              200
+/crop-insurance/wfrp/             /crop-insurance-wfrp.html              200
+
+# ── Lender reviews ──
+/lenders/national-funding         /lenders-national-funding.html         200
+/lenders/national-funding/        /lenders-national-funding.html         200
+/lenders/national-funding-review  /lenders-national-funding.html         200
+/lenders/fora-financial           /lenders-fora-financial.html           200
+/lenders/fora-financial/          /lenders-fora-financial.html           200
+/lenders/fora-financial-review    /lenders-fora-financial.html           200
+/lenders/lendio                   /lenders-lendio.html                   200
+/lenders/lendio/                  /lenders-lendio.html                   200
+/lenders/lendio-review            /lenders-lendio.html                   200
+/lenders/farm-credit              /lenders-farm-credit.html              200
+/lenders/farm-credit/             /lenders-farm-credit.html              200
+/lenders/farm-credit-review       /lenders-farm-credit.html              200
+/lenders/agdirect                 /lenders-agdirect.html                 200
+/lenders/agdirect/                /lenders-agdirect.html                 200
+/lenders/agdirect-review          /lenders-agdirect.html                 200
+
+# ── USDA programs ──
+/usda-programs/fsa-loans          /usda-fsa-loans.html                   200
+/usda-programs/fsa-loans/         /usda-fsa-loans.html                   200
+/usda-fsa-guide                   /usda-fsa-loans.html                   200
+/usda-programs/direct-vs-guaranteed  /usda-direct-vs-guaranteed.html     200
+/usda-programs/how-to-apply       /usda-how-to-apply.html                200
+/usda-programs/storage-facility   /usda-storage-facility-loans.html      200
+
+# ── State guides ──
+/state-guides                     /state-iowa.html                       200
+/state-guides/                    /state-iowa.html                       200
+/state-guides/iowa.html           /state-iowa.html                       200
+
+# ── Seasonal ──
+/seasonal/spring-planting         /seasonal-spring-planting.html         200
+/seasonal/harvest-financing       /seasonal-harvest-financing.html       200
+/seasonal/year-end-tax            /seasonal-year-end-tax.html            200
+
+# ── Methodology ──
+/how-we-rate                      /how-we-rate-lenders.html              200
+/how-we-rate/                     /how-we-rate-lenders.html              200
+
+# ── Catch broken /pages/ prefix links ──
+/pages/crop-insurance.html            /crop-insurance.html               301
+/pages/crop-insurance-how-it-works.html  /crop-insurance-how-it-works.html  301
+/pages/crop-insurance-revenue-protection.html  /crop-insurance-revenue-protection.html  301
+/pages/usda-programs.html             /usda-programs.html                301
+/pages/usda-fsa-loans.html            /usda-fsa-loans.html               301
+/pages/usda-direct-vs-guaranteed.html /usda-direct-vs-guaranteed.html    301
+/pages/usda-how-to-apply.html         /usda-how-to-apply.html            301
+/pages/usda-storage-facility-loans.html /usda-storage-facility-loans.html  301
