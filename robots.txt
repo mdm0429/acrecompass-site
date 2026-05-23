@@ -1,11 +1,10 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://acrecompass.com/sitemap.xml
-
-# AI crawlers — allow for GEO indexing
 User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: ClaudeBot
@@ -22,3 +21,8 @@ Allow: /
 
 User-agent: Bingbot
 Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://acrecompass.com/sitemap.xml
