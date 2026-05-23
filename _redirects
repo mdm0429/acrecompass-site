@@ -81,10 +81,41 @@
 /usda-programs/how-to-apply       /usda-how-to-apply.html                200
 /usda-programs/storage-facility   /usda-storage-facility-loans.html      200
 
-# ── State guides ──
+# ── State guides (clean URLs) ──
 /state-guides                     /state-iowa.html                       200
 /state-guides/                    /state-iowa.html                       200
 /state-guides/iowa.html           /state-iowa.html                       200
+/state-california                 /state-california.html                 200
+/state-illinois                   /state-illinois.html                   200
+/state-indiana                    /state-indiana.html                    200
+/state-iowa                       /state-iowa.html                       200
+/state-kansas                     /state-kansas.html                     200
+/state-minnesota                  /state-minnesota.html                  200
+/state-nebraska                   /state-nebraska.html                   200
+/state-texas                      /state-texas.html                      200
+
+# ── Privacy (no dedicated page — redirect to about) ──
+/privacy                          /about.html                            200
+/privacy/                         /about.html                            200
+/privacy-policy                   /about.html                            200
+/privacy-policy/                  /about.html                            200
+
+# ── Non-existent lender reviews → lenders hub ──
+/lenders/american-agcredit-review    /lenders.html                       301
+/lenders/compeer-financial-review    /lenders.html                       301
+/lenders/farm-credit-bank-texas-review /lenders.html                     301
+/lenders/fsa-direct-review           /lenders.html                       301
+/lenders/southern-agcredit-review    /lenders.html                       301
+
+# ── Non-existent content → closest hub ──
+/compare-rates                    /lenders.html                          200
+/articles/specialty-crop-financing /farm-loans.html                      301
+/specialty-crop-loans             /farm-loans.html                       301
+/usda-programs/fsa-microloans.html /usda-fsa-loans.html                  301
+/farm-loan-down-payment.html      /farm-loans.html                       301
+/farm-loan-rates.html             /farm-loans.html                       301
+/farm-loans-line-of-credit.html   /farm-loans-operating.html             301
+/how-to-qualify-farm-loan.html    /farm-loans.html                       301
 
 # ── Seasonal ──
 /seasonal/spring-planting         /seasonal-spring-planting.html         200
