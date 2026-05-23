@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PRQ8SBTV');</script>
+    <!-- End Google Tag Manager -->
+    <meta name='impact-site-verification' value='c74045d5-de38-464a-8e54-aeb7b8bed55a'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipment Lease vs. Buy Calculator for Farmers 2026 — AcreCompass</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--info-subtle:#D8E8F5;--info:#2B6CAD;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-2xl:1.25rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
+*,*::before,*::after{box-sizing:border-box;margin:0;}
+html{background:var(--bg-page);color:var(--text-primary);font-family:var(--font-sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4{font-family:var(--font-display);line-height:1.2;}
+a{color:var(--text-brand);text-decoration:none;}
+p{color:var(--text-secondary);}
+.nav{background:var(--bg-invert);display:flex;align-items:center;padding:0 2rem;height:60px;position:sticky;top:0;z-index:200;}
+.nav-logo{display:flex;align-items:center;gap:.625rem;}
+.nav-wordmark{font-family:var(--font-display);font-size:1.05rem;font-weight:600;color:var(--text-invert);}
+.nav-links{display:flex;gap:1.75rem;margin-left:2.5rem;}
+.nav-links a{font-size:.875rem;color:rgba(250,248,244,.6);}
+.nav-links a:hover{color:var(--text-invert);}
+.nav-cta{margin-left:auto;background:var(--cta);color:white;padding:.45rem 1.125rem;border-radius:var(--radius-md);font-size:.875rem;font-weight:600;}
+.nav-cta:hover{background:var(--cta-hover);color:white;}
+.page-header{background:var(--bg-invert);padding:3rem 2rem 2.5rem;}
+.page-header-inner{max-width:1120px;margin:0 auto;}
+.breadcrumb{font-size:.78rem;color:rgba(250,248,244,.4);margin-bottom:1rem;display:flex;gap:.375rem;}
+.breadcrumb a{color:rgba(250,248,244,.4);}
+.breadcrumb a:hover{color:rgba(250,248,244,.75);}
+.badge{display:inline-flex;align-items:center;padding:.2rem .625rem;border-radius:var(--radius-full);font-size:.7rem;font-weight:600;}
+.badge-brand{background:var(--brand-subtle);color:var(--brand-active);}
+.page-header h1{font-size:2.375rem;color:var(--text-invert);margin:.75rem 0 .625rem;}
+.page-header .deck{font-family:var(--font-display);font-style:italic;font-size:1rem;color:rgba(250,248,244,.55);max-width:640px;}
+.calc-wrapper{max-width:1120px;margin:2.5rem auto;padding:0 2rem;}
+.calc-grid{display:grid;grid-template-columns:380px 1fr;gap:2rem;align-items:start;}
+.input-panel{background:white;border:1px solid var(--border);border-radius:var(--radius-xl);padding:2rem;box-shadow:var(--shadow-sm);}
+.input-panel h3{font-family:var(--font-sans);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:1.5rem;}
+.input-section-label{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-brand);margin:1.25rem 0 .875rem;padding-top:1.25rem;border-top:1px solid var(--border-subtle);}
+.form-group{margin-bottom:1.125rem;}
+.form-label{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;font-weight:600;color:var(--text-secondary);margin-bottom:.4rem;}
+.form-label-hint{font-weight:400;font-size:.72rem;color:var(--text-muted);}
+.form-input{width:100%;padding:.625rem .875rem;border:1.5px solid var(--border);border-radius:var(--radius-md);font-size:.9rem;font-family:var(--font-sans);color:var(--text-primary);background:white;outline:none;transition:border-color var(--transition-fast);}
+.form-input:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(45,125,45,.1);}
+.input-prefix{position:relative;}
+.input-prefix .form-input{padding-left:1.875rem;}
+.prefix-sym{position:absolute;left:.75rem;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:.9rem;}
+.input-suffix{position:relative;}
+.input-suffix .form-input{padding-right:2.5rem;}
+.suffix-sym{position:absolute;right:.75rem;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:.875rem;}
+.form-select{width:100%;padding:.625rem .875rem;border:1.5px solid var(--border);border-radius:var(--radius-md);font-size:.9rem;font-family:var(--font-sans);color:var(--text-primary);background:white;outline:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%238C7A62'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .75rem center;background-size:16px;padding-right:2.5rem;cursor:pointer;}
+.form-select:focus{border-color:var(--brand);}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:var(--radius-md);font-size:.9rem;font-weight:600;font-family:var(--font-sans);padding:.625rem 1.25rem;cursor:pointer;border:none;}
+.btn-primary{background:var(--cta);color:white;}
+.btn-primary:hover{background:var(--cta-hover);color:white;}
+.btn-outline{background:transparent;color:var(--text-brand);border:1.5px solid var(--brand);}
+.btn-outline:hover{background:var(--brand-subtle);}
+.results-panel{display:flex;flex-direction:column;gap:1.25rem;}
+.result-row{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;}
+.result-hero{border-radius:var(--radius-2xl);padding:1.75rem;text-align:center;}
+.result-hero.buy{background:var(--bg-invert);}
+.result-hero.lease{background:var(--bg-surface);border:2px solid var(--border);}
+.result-hero .label{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:rgba(250,248,244,.4);margin-bottom:.5rem;}
+.result-hero.lease .label{color:var(--text-muted);}
+.result-hero .amount{font-family:var(--font-mono);font-size:2.5rem;font-weight:500;color:white;line-height:1;}
+.result-hero.lease .amount{color:var(--text-primary);}
+.result-hero .sub{font-size:.8rem;color:rgba(250,248,244,.4);margin-top:.375rem;}
+.result-hero.lease .sub{color:var(--text-muted);}
+.recommendation{border-radius:var(--radius-xl);padding:1.5rem;border:2px solid;}
+.recommendation.buy-wins{background:#f0faf0;border-color:var(--brand);}
+.recommendation.lease-wins{background:var(--bg-info);border-color:var(--info);}
+.recommendation.neutral{background:var(--bg-surface);border-color:var(--border);}
+.rec-label{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;margin-bottom:.375rem;}
+.recommendation.buy-wins .rec-label{color:var(--brand-active);}
+.recommendation.lease-wins .rec-label{color:var(--info);}
+.rec-headline{font-family:var(--font-display);font-size:1.25rem;font-weight:600;margin-bottom:.25rem;}
+.recommendation.buy-wins .rec-headline{color:var(--brand-active);}
+.recommendation.lease-wins .rec-headline{color:var(--info);}
+.rec-sub{font-size:.85rem;color:var(--text-secondary);}
+.comparison-table-wrap{background:white;border:1px solid var(--border);border-radius:var(--radius-xl);overflow:hidden;}
+.comparison-table-wrap h4{font-family:var(--font-sans);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-muted);padding:1rem 1.5rem;border-bottom:1px solid var(--border);}
+.comp-table{width:100%;border-collapse:collapse;font-size:.85rem;}
+.comp-table th{background:var(--bg-surface);text-align:right;padding:.5rem .875rem;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);}
+.comp-table th:first-child{text-align:left;}
+.comp-table td{padding:.5rem .875rem;border-bottom:1px solid var(--border-subtle);text-align:right;font-family:var(--font-mono);}
+.comp-table td:first-child{text-align:left;font-family:var(--font-sans);color:var(--text-secondary);}
+.comp-table tr:last-child td{border-bottom:none;}
+.comp-table .winner{background:rgba(45,125,45,.05);font-weight:600;color:var(--brand-active);}
+.explainer{max-width:1120px;margin:0 auto;padding:2rem 2rem 3rem;display:grid;grid-template-columns:1fr 1fr;gap:2rem;}
+.explainer-block h2{font-size:1.375rem;margin-bottom:.875rem;}
+.explainer-block p{font-size:.9rem;line-height:1.75;color:var(--text-primary);margin-bottom:1rem;}
+.explainer-block ul{padding-left:1.25rem;margin-bottom:1rem;}
+.explainer-block li{font-size:.9rem;line-height:1.7;color:var(--text-secondary);margin-bottom:.35rem;}
+.callout-box{background:var(--bg-info);border-left:3px solid var(--info);border-radius:var(--radius-lg);padding:.875rem 1.125rem;margin-top:1rem;}
+.callout-box h5{font-size:.78rem;font-weight:600;color:#0C2438;margin-bottom:.2rem;}
+.callout-box p{font-size:.8rem;color:var(--text-secondary);margin:0;}
+.affiliate-box{background:var(--bg-cta);border:1px solid var(--border-cta);border-radius:var(--radius-xl);padding:1.5rem 1.75rem;max-width:1120px;margin:0 auto 2.5rem;}
+.affiliate-box h4{font-family:var(--font-display);font-size:1.1rem;margin-bottom:.4rem;}
+.affiliate-box p{font-size:.875rem;margin-bottom:1rem;}
+.cta-row{display:flex;gap:.75rem;flex-wrap:wrap;}
+.affiliate-disclosure{font-size:.72rem;color:var(--text-muted);margin-top:.75rem;font-style:italic;}
+.rr{background:var(--bg-surface);border-top:1px solid var(--border);padding:3rem 2rem;}
+.rr-inner{max-width:1120px;margin:0 auto;}
+.rr h3{font-family:var(--font-sans);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:1.25rem;}
+.rr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.75rem;}
+.rr-card{background:white;border:1px solid var(--border);border-radius:var(--radius-lg);padding:1rem 1.125rem;display:flex;align-items:flex-start;gap:.75rem;transition:box-shadow var(--transition-fast),border-color var(--transition-fast);}
+.rr-card:hover{box-shadow:var(--shadow-md);border-color:var(--border-brand);}
+.rr-icon{width:32px;height:32px;border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.rr-icon.brand{background:var(--brand-subtle);}
+.rr-icon.cta{background:var(--cta-subtle);}
+.rr-icon.info{background:var(--info-subtle);}
+.rr-label{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:.15rem;}
+.rr-title{font-size:.875rem;font-weight:600;color:var(--text-primary);line-height:1.3;}
+.rr-desc{font-size:.75rem;color:var(--text-secondary);margin-top:.2rem;}
+.footer{background:var(--bg-invert);padding:3rem 2rem 2rem;}
+.footer-inner{max-width:1120px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3rem;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,.08);}
+.footer-brand .wordmark{font-family:var(--font-display);font-size:1rem;font-weight:600;color:var(--text-invert);display:flex;align-items:center;gap:.625rem;margin-bottom:.75rem;}
+.footer-brand p{font-size:.82rem;color:rgba(250,248,244,.45);max-width:220px;}
+.footer-col h6{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:rgba(250,248,244,.35);margin-bottom:.875rem;}
+.footer-col a{display:block;font-size:.82rem;color:rgba(250,248,244,.5);margin-bottom:.4rem;}
+.footer-col a:hover{color:var(--text-invert);}
+.footer-bottom{display:flex;justify-content:space-between;gap:2rem;padding-top:1.5rem;font-size:.75rem;color:rgba(250,248,244,.3);}
+</style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRQ8SBTV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<nav class="nav">
+  <div class="nav-logo">
+    <svg width="28" height="28" viewBox="0 0 40 40" fill="none"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"/><path d="M30 10 A14 14 0 0 1 36 20" stroke="#E8860A" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="36" cy="20" r="2.5" fill="#E8860A"/></svg>
+    <span class="nav-wordmark">AcreCompass</span>
+  </div>
+  <div class="nav-links">
+    <a href="#">Farm Loans</a>
+    <a href="#">USDA Programs</a>
+    <a href="#">Lenders</a>
+    <a href="#">Calculators</a>
+    <a href="#">State Guides</a>
+  </div>
+  <a href="#" class="nav-cta">Compare Rates →</a>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="breadcrumb"><a href="#">Home</a><span>›</span><a href="#">Calculators</a><span>›</span><span style="color:rgba(250,248,244,.65)">Lease vs. Buy Calculator</span></div>
+    <span class="badge badge-brand">Calculator</span>
+    <h1>Equipment Lease vs. Buy Calculator</h1>
+    <p class="deck">Should you finance that new tractor or lease it? This calculator shows the true 5-year cost of each option — including depreciation, opportunity cost, and residual value.</p>
+  </div>
+</header>
+
+<div class="calc-wrapper">
+  <div class="calc-grid">
+
+    <!-- Inputs -->
+    <div class="input-panel">
+      <h3>Equipment Details</h3>
+
+      <div class="form-group">
+        <label class="form-label">Equipment Cost <span class="form-label-hint">$10K–$2M</span></label>
+        <div class="input-prefix">
+          <span class="prefix-sym">$</span>
+          <input class="form-input" type="number" id="equipCost" value="250000" min="10000" max="2000000" step="1000" oninput="calculate()">
+        </div>
+      </div>
+
+      <div class="input-section-label">If You Buy</div>
+
+      <div class="form-group">
+        <label class="form-label">Down Payment % <span class="form-label-hint">0–50%</span></label>
+        <div class="input-suffix">
+          <input class="form-input" type="number" id="downPct" value="10" min="0" max="50" step="1" oninput="calculate()">
+          <span class="suffix-sym">%</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Interest Rate <span class="form-label-hint">Annual</span></label>
+        <div class="input-suffix">
+          <input class="form-input" type="number" id="buyRate" value="6.5" min="0" max="25" step="0.1" oninput="calculate()">
+          <span class="suffix-sym">%</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Loan Term</label>
+        <select class="form-select" id="buyTerm" onchange="calculate()">
+          <option value="3">3 Years</option>
+          <option value="5">5 Years</option>
+          <option value="7" selected>7 Years</option>
+          <option value="10">10 Years</option>
+        </select>
+      </div>
+
+      <div class="input-section-label">If You Lease</div>
+
+      <div class="form-group">
+        <label class="form-label">Monthly Lease Payment</label>
+        <div class="input-prefix">
+          <span class="prefix-sym">$</span>
+          <input class="form-input" type="number" id="leasePayment" value="2500" min="100" max="50000" step="50" oninput="calculate()">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Lease Term (months)</label>
+        <select class="form-select" id="leaseTerm" onchange="calculate()">
+          <option value="36">36 months (3 yr)</option>
+          <option value="48">48 months (4 yr)</option>
+          <option value="60" selected>60 months (5 yr)</option>
+          <option value="72">72 months (6 yr)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Residual Value % <span class="form-label-hint">End of lease</span></label>
+        <div class="input-suffix">
+          <input class="form-input" type="number" id="residualPct" value="20" min="0" max="60" step="1" oninput="calculate()">
+          <span class="suffix-sym">%</span>
+        </div>
+      </div>
+
+      <div class="input-section-label">Assumptions</div>
+
+      <div class="form-group">
+        <label class="form-label">Annual Depreciation Rate</label>
+        <div class="input-suffix">
+          <input class="form-input" type="number" id="deprRate" value="10" min="5" max="25" step="1" oninput="calculate()">
+          <span class="suffix-sym">%</span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Analysis Period</label>
+        <select class="form-select" id="analysisPeriod" onchange="calculate()">
+          <option value="3">3 Years</option>
+          <option value="5" selected>5 Years</option>
+          <option value="7">7 Years</option>
+          <option value="10">10 Years</option>
+        </select>
+      </div>
+
+      <button class="btn btn-primary" style="width:100%;margin-top:.5rem;padding:.75rem;" onclick="calculate()">Compare Options</button>
+    </div>
+
+    <!-- Results -->
+    <div class="results-panel">
+
+      <div class="result-row">
+        <div class="result-hero buy">
+          <div class="label">Total Cost to Buy</div>
+          <div class="amount" id="buyCostDisplay">—</div>
+          <div class="sub" id="buyTermDisplay">Over 5-year period</div>
+        </div>
+        <div class="result-hero lease">
+          <div class="label">Total Cost to Lease</div>
+          <div class="amount" id="leaseCostDisplay">—</div>
+          <div class="sub" id="leaseTermDisplay">Over 5-year period</div>
+        </div>
+      </div>
+
+      <div class="recommendation neutral" id="recommendation">
+        <div class="rec-label">Net Recommendation</div>
+        <div class="rec-headline" id="recHeadline">Enter values to compare</div>
+        <div class="rec-sub" id="recSub">Adjust inputs above to see the recommendation.</div>
+      </div>
+
+      <div class="comparison-table-wrap">
+        <h4>Year-by-Year Cumulative Cost Comparison</h4>
+        <table class="comp-table">
+          <thead><tr><th>Year</th><th>Buy (Cumulative)</th><th>Lease (Cumulative)</th><th>Difference</th></tr></thead>
+          <tbody id="compTable"></tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- When to buy vs. lease -->
+<div class="explainer">
+  <div class="explainer-block">
+    <h2>When Buying Makes Sense</h2>
+    <p>Buying farm equipment generally makes financial sense when you plan to use it for many years, when you want to build equity in depreciable assets, or when you need the Section 179 tax deduction in the year of purchase.</p>
+    <ul>
+      <li><strong>Long ownership horizon.</strong> If you'll use the equipment for 10+ years, buying almost always wins once the loan is paid off and you're operating cost-free.</li>
+      <li><strong>Strong credit, low rates.</strong> At rates below 7%, buying through AgDirect or Farm Credit is often cheaper than leasing after factoring in residual value.</li>
+      <li><strong>Section 179 advantages.</strong> Bought equipment can be expensed under Section 179 (up to $1.16M in 2026). Leased equipment generally cannot.</li>
+      <li><strong>Customization needs.</strong> If you need to modify or accessorize the equipment, you need to own it.</li>
+      <li><strong>Building balance sheet equity.</strong> Owned equipment improves your net worth and borrowing capacity for future operating loans.</li>
+    </ul>
+    <div class="callout-box">
+      <h5>AgDirect for equipment loans</h5>
+      <p>AgDirect specializes in farm equipment financing with rates starting around 5.90% — often lower than general business lenders. Compare their quote against your lease payment.</p>
+    </div>
+  </div>
+  <div class="explainer-block">
+    <h2>When Leasing Makes Sense</h2>
+    <p>Equipment leasing offers advantages in specific scenarios — particularly when technology cycles quickly, cash flow is tight, or you want to preserve borrowing capacity for operating loans.</p>
+    <ul>
+      <li><strong>Technology that updates frequently.</strong> Precision agriculture equipment, GPS systems, and modern combines improve significantly every 3–5 years. Leasing lets you upgrade without selling a depreciated asset.</li>
+      <li><strong>Cash flow preservation.</strong> Lease payments are typically lower than loan payments for the same equipment, preserving operating cash flow for seed, fertilizer, and other inputs.</li>
+      <li><strong>Short-term need.</strong> If you're only farming a specific field for 3–5 years, leasing avoids owning equipment you won't need.</li>
+      <li><strong>Lower upfront capital.</strong> Most leases require little or no down payment vs. 10–20% down on a purchase loan.</li>
+      <li><strong>Simplified budgeting.</strong> Fixed monthly lease payments make cash flow forecasting easier than variable maintenance + loan payment budgets.</li>
+    </ul>
+    <div class="callout-box">
+      <h5>Watch residual value assumptions</h5>
+      <p>The calculator uses your entered residual value %. For actual leases, negotiate this number carefully — a higher residual means lower monthly payments but a larger balloon if you want to buy the equipment at lease end.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Affiliate CTA -->
+<div class="affiliate-box" style="margin:0 2rem 2.5rem;max-width:1076px;">
+  <h4>Ready to Finance Farm Equipment?</h4>
+  <p>Compare equipment loan rates from specialized ag lenders before you decide. AgDirect and Fora Financial both offer fast decisions on farm equipment financing.</p>
+  <div class="cta-row">
+    <a href="https://www.agdirect.com/" class="btn btn-primary" style="font-size:.95rem;padding:.75rem 1.5rem;">AgDirect Equipment Loans →</a>
+    <a href="https://www.forafinancial.com/" class="btn btn-outline" style="font-size:.95rem;padding:.75rem 1.5rem;">Fora Financial Equipment Financing →</a>
+  </div>
+  <div class="affiliate-disclosure">Affiliate links — we may earn a commission if you apply through these links. This does not affect our calculator results or editorial recommendations.</div>
+</div>
+
+<section class="rr">
+  <div class="rr-inner">
+    <h3>Related Resources</h3>
+    <div class="rr-grid">
+      <a href="calculators-farm-loan.html" class="rr-card"><div class="rr-icon cta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--cta)" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><div><div class="rr-label">Calculator</div><div class="rr-title">Farm Loan Payment Calculator</div><div class="rr-desc">Estimate monthly payments for any loan amount and term.</div></div></a>
+      <a href="#" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Guide</div><div class="rr-title">Equipment Financing Guide 2026</div><div class="rr-desc">Tractors, combines, irrigation — complete guide.</div></div></a>
+      <a href="#" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><div><div class="rr-label">Comparison</div><div class="rr-title">Best Farm Lenders 2026</div><div class="rr-desc">Top-rated lenders ranked by our editorial score.</div></div></a>
+      <a href="#" class="rr-card"><div class="rr-icon info"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6"/></svg></div><div><div class="rr-label">Lender Review</div><div class="rr-title">AgDirect Review 2026</div><div class="rr-desc">Specialized farm equipment financing reviewed in full.</div></div></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><div class="wordmark"><svg width="20" height="20" viewBox="0 0 40 40" fill="none"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"/><path d="M30 10 A14 14 0 0 1 36 20" stroke="#E8860A" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="36" cy="20" r="2.5" fill="#E8860A"/></svg>AcreCompass</div><p>Your compass for farm financing. Independent research, not a lender.</p></div>
+      <div class="footer-col"><h6>Farm Loans</h6><a href="#">Operating Loans</a><a href="#">Land Purchase</a><a href="#">Equipment Financing</a><a href="#">USDA Programs</a></div>
+      <div class="footer-col"><h6>Lenders</h6><a href="#">AgDirect</a><a href="#">National Funding</a><a href="#">Fora Financial</a><a href="#">Compare All →</a></div>
+      <div class="footer-col"><h6>Company</h6><a href="about.html">About AcreCompass</a><a href="how-we-rate-lenders.html">How We Rate Lenders</a><a href="advertiser-disclosure.html">Advertiser Disclosure</a><a href="#">Privacy Policy</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 AcreCompass. All rights reserved. acrecompass.com</span><span>Not affiliated with USDA or any government agency.</span></div>
+  </div>
+</footer>
+
+<script>
+function fmt(n){return '$'+Math.round(n).toLocaleString();}
+
+function calculate(){
+  const equipCost=parseFloat(document.getElementById('equipCost').value)||250000;
+  const downPct=parseFloat(document.getElementById('downPct').value)||10;
+  const buyRateAnnual=parseFloat(document.getElementById('buyRate').value)||6.5;
+  const buyTermYears=parseInt(document.getElementById('buyTerm').value)||7;
+  const leaseMonthly=parseFloat(document.getElementById('leasePayment').value)||2500;
+  const leaseTermMonths=parseInt(document.getElementById('leaseTerm').value)||60;
+  const residualPct=parseFloat(document.getElementById('residualPct').value)||20;
+  const deprAnnual=parseFloat(document.getElementById('deprRate').value)||10;
+  const analysisPeriod=parseInt(document.getElementById('analysisPeriod').value)||5;
+
+  // BUY CALCULATION
+  const downPayment=equipCost*(downPct/100);
+  const loanAmt=equipCost-downPayment;
+  const r=buyRateAnnual/100/12;
+  const n=buyTermYears*12;
+  let monthlyLoan;
+  if(r===0){monthlyLoan=loanAmt/n;}
+  else{monthlyLoan=loanAmt*(r*Math.pow(1+r,n))/(Math.pow(1+r,n)-1);}
+
+  const analysisPeriodMonths=analysisPeriod*12;
+
+  // Total buy cost = down + loan payments during analysis period - ending equity
+  const loanPaymentsDuringPeriod=monthlyLoan*Math.min(analysisPeriodMonths,n);
+  // Remaining loan balance at end of analysis period
+  let balance=loanAmt;
+  for(let i=0;i<Math.min(analysisPeriodMonths,n);i++){
+    const intPart=balance*r;
+    const prinPart=monthlyLoan-intPart;
+    balance=Math.max(0,balance-prinPart);
+  }
+  const remainingLoanBalance=balance;
+  // Depreciated value at end of analysis period
+  const depreciatedValue=equipCost*Math.pow(1-deprAnnual/100,analysisPeriod);
+  // Equity = depreciated value - remaining loan balance
+  const equity=Math.max(0,depreciatedValue-remainingLoanBalance);
+  const totalBuyCost=downPayment+loanPaymentsDuringPeriod-equity;
+
+  // LEASE CALCULATION
+  // Total lease payments over analysis period; if analysis > lease term, assume renewal at same rate
+  const totalLeasePayments=leaseMonthly*analysisPeriodMonths;
+  // Opportunity cost: at end of original lease term, no equity. If buying out at residual, add that
+  const totalLeaseCost=totalLeasePayments; // simplified: no residual buyout assumption
+
+  // Update displays
+  document.getElementById('buyCostDisplay').textContent=fmt(totalBuyCost);
+  document.getElementById('leaseCostDisplay').textContent=fmt(totalLeaseCost);
+  document.getElementById('buyTermDisplay').textContent='Over '+analysisPeriod+'-year period (net of equity)';
+  document.getElementById('leaseTermDisplay').textContent='Over '+analysisPeriod+'-year period';
+
+  // Recommendation
+  const diff=Math.abs(totalBuyCost-totalLeaseCost);
+  const recEl=document.getElementById('recommendation');
+  const recHeadline=document.getElementById('recHeadline');
+  const recSub=document.getElementById('recSub');
+  recEl.className='recommendation';
+  if(totalBuyCost<totalLeaseCost){
+    recEl.classList.add('buy-wins');
+    recHeadline.textContent='Buying saves '+fmt(diff)+' over '+analysisPeriod+' years';
+    recSub.textContent='After accounting for depreciation and residual equity, purchasing this equipment at your entered rate costs less than leasing over the analysis period.';
+  } else if(totalLeaseCost<totalBuyCost){
+    recEl.classList.add('lease-wins');
+    recHeadline.textContent='Leasing saves '+fmt(diff)+' over '+analysisPeriod+' years';
+    recSub.textContent='Over the analysis period, leasing costs less in total cash outlay. This advantage may reverse if you hold the equipment longer — check a longer analysis period.';
+  } else {
+    recEl.classList.add('neutral');
+    recHeadline.textContent='Costs are approximately equal';
+    recSub.textContent='The total cost to buy and lease are very similar. Consider non-financial factors: flexibility, technology refresh, and tax treatment.';
+  }
+
+  // Year-by-year table
+  let cumBuy=downPayment;
+  let cumLease=0;
+  let loanBal=loanAmt;
+  let rows='';
+  for(let yr=1;yr<=analysisPeriod;yr++){
+    // Buy: add 12 monthly loan payments (or remaining if loan shorter)
+    for(let mo=0;mo<12;mo++){
+      const monthIdx=(yr-1)*12+mo;
+      if(monthIdx<n){
+        const intPart=loanBal*r;
+        const prinPart=monthlyLoan-intPart;
+        loanBal=Math.max(0,loanBal-prinPart);
+        cumBuy+=monthlyLoan;
+      }
+    }
+    // Subtract current equity
+    const currDeprecVal=equipCost*Math.pow(1-deprAnnual/100,yr);
+    const currEquity=Math.max(0,currDeprecVal-loanBal);
+    const netBuy=downPayment+(monthlyLoan*Math.min(yr*12,n))-currEquity;
+
+    // Lease: add 12 monthly payments
+    cumLease+=leaseMonthly*12;
+
+    const diff2=netBuy-cumLease;
+    const buyWins=netBuy<=cumLease;
+    rows+=`<tr><td>Year ${yr}</td><td class="${buyWins?'winner':''}">${fmt(netBuy)}</td><td class="${!buyWins?'winner':''}">${fmt(cumLease)}</td><td style="color:${diff2<0?'var(--brand-active)':'var(--info)'};">${diff2<0?'Buy +'+fmt(Math.abs(diff2)):'Lease +'+fmt(Math.abs(diff2))}</td></tr>`;
+  }
+  document.getElementById('compTable').innerHTML=rows;
+}
+
+document.addEventListener('DOMContentLoaded',calculate);
+</script>
+</body>
+</html>

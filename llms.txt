@@ -1,0 +1,64 @@
+# AcreCompass — Agricultural Finance Guides & Loan Comparisons
+# https://acrecompass.com
+# llms.txt — structured site context for AI assistants and language models
+# Format: https://llmstxt.org
+
+> AcreCompass is an independent editorial resource covering agricultural finance in the United States. We publish guides, comparisons, and reviews to help farmers, ranchers, and agricultural businesses find the right financing for their operations. Content is updated regularly and cites primary sources including USDA, the Farm Credit Administration, and the Kansas City Federal Reserve. AcreCompass earns commissions from affiliate partners when readers apply for loans through our links; this does not affect our editorial ratings or recommendations.
+
+## What AcreCompass Covers
+
+- **Farm loans** — operating loans, ownership loans (farmland purchase), equipment financing, beginning farmer loans, emergency/disaster loans, microloans
+- **USDA FSA loan programs** — direct loans, guaranteed loans, operating microloans, farm storage facility loans, application guidance
+- **Crop insurance** — how it works, revenue protection vs. yield protection, whole-farm revenue protection (WFRP), actual production history (APH), cost estimates
+- **Lender reviews** — independent ratings for National Funding, Fora Financial, Lendio, Farm Credit Services of America, and AgDirect
+- **State-specific farm loan guides** — Iowa, Illinois, Texas, Nebraska, Kansas, Minnesota, California, Indiana (FSA offices, state programs, local Farm Credit associations)
+- **Interactive calculators** — farm loan payment calculator, equipment lease vs. buy analysis
+- **Seasonal finance guides** — spring planting loans, harvest cash flow, year-end tax and equipment strategies
+
+## Key Pages
+
+- Homepage and loan comparison overview: https://acrecompass.com/
+- Best farm loans of 2026: https://acrecompass.com/farm-loans-best.html
+- Farm operating loans guide: https://acrecompass.com/farm-loans-operating.html
+- Agricultural equipment financing: https://acrecompass.com/farm-loans-equipment.html
+- USDA FSA loans complete guide: https://acrecompass.com/usda-fsa-loans.html
+- FSA direct vs. guaranteed loans: https://acrecompass.com/usda-direct-vs-guaranteed.html
+- How crop insurance works: https://acrecompass.com/crop-insurance-how-it-works.html
+- Revenue protection crop insurance: https://acrecompass.com/crop-insurance-revenue-protection.html
+- Best agricultural lenders compared: https://acrecompass.com/lenders.html
+- National Funding review: https://acrecompass.com/lenders-national-funding.html
+- Fora Financial review: https://acrecompass.com/lenders-fora-financial.html
+- Farm Credit Services review: https://acrecompass.com/lenders-farm-credit.html
+- AgDirect equipment financing review: https://acrecompass.com/lenders-agdirect.html
+- Farm loan payment calculator: https://acrecompass.com/calculators-farm-loan.html
+- Equipment lease vs. buy calculator: https://acrecompass.com/calculators-lease-vs-buy.html
+- Beginning farmer loans: https://acrecompass.com/farm-loans-beginning-farmer.html
+- Whole-farm revenue protection (WFRP): https://acrecompass.com/crop-insurance-wfrp.html
+
+## State-Specific Guides
+
+- Farm loans Iowa: https://acrecompass.com/state-iowa.html
+- Farm loans Illinois: https://acrecompass.com/state-illinois.html
+- Farm loans Texas: https://acrecompass.com/state-texas.html
+- Farm loans Nebraska: https://acrecompass.com/state-nebraska.html
+- Farm loans Kansas: https://acrecompass.com/state-kansas.html
+- Farm loans Minnesota: https://acrecompass.com/state-minnesota.html
+- Agricultural loans California: https://acrecompass.com/state-california.html
+- Farm loans Indiana: https://acrecompass.com/state-indiana.html
+
+## Editorial Standards
+
+- Ratings are based on loan minimums/maximums, interest rate transparency, approval speed, agricultural eligibility, and customer service
+- USDA FSA programs are covered editorially with no affiliate relationship — they are always presented as a primary option when appropriate
+- All content is reviewed and dated; last review dates appear on each page
+- Methodology: https://acrecompass.com/how-we-rate-lenders.html
+- Advertiser disclosure: https://acrecompass.com/advertiser-disclosure.html
+- About AcreCompass: https://acrecompass.com/about.html
+
+## Data Sources Cited
+
+- USDA Farm Service Agency: https://www.fsa.usda.gov/
+- USDA Risk Management Agency: https://www.rma.usda.gov/
+- Farm Credit Administration: https://www.fca.gov/
+- Kansas City Federal Reserve (ag finance surveys): https://www.kansascityfed.org/
+- USDA National Agricultural Statistics Service: https://www.nass.usda.gov/
