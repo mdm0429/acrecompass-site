@@ -216,6 +216,8 @@ figure.article-chart{border:1px solid var(--border);border-radius:var(--radius-l
 figure.article-chart img{width:100%;height:auto;display:block;}
 figure.article-chart{margin:2rem 0 2.5rem;}
 figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding:.5rem 1rem;border-top:1px solid var(--border-subtle);font-style:italic;}
+
+
 </style>
 <script type="application/ld+json">
 {
@@ -282,7 +284,7 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
   ]
 }
 </script>
-</meta><style>
+<style>
 /* ── QA2 Nav Override ── */
 .nav{background:var(--bg-invert);display:flex;align-items:center;padding:0 1.5rem;height:60px;position:sticky;top:0;z-index:200;gap:0;}
 .nav-logo-link{text-decoration:none;color:inherit;display:flex;flex-shrink:0;}
@@ -396,6 +398,123 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
   ]
 }
 </script>
+
+<style>
+/* ══════════════════════════════════════════════════════════
+   MOBILE-FIRST RESPONSIVE — 768px and below
+   ══════════════════════════════════════════════════════════ */
+
+@media(max-width:768px){
+  /* ── 1. Base Typography ── */
+  body{font-size:16px;line-height:1.6;-webkit-text-size-adjust:100%;}
+  h1{font-size:1.75rem!important;}
+  h2{font-size:1.375rem!important;}
+  h3{font-size:1.125rem!important;}
+  p,li,td,th,dd,dt{font-size:1rem;}
+  .page-header h1{font-size:1.75rem!important;}
+  .page-header .deck{font-size:.95rem;}
+  code{font-size:.85rem;word-break:break-all;}
+
+  /* ── 2. Navigation — hamburger top-right ── */
+  .nav{padding:0 1rem;justify-content:space-between;}
+  .nav-hamburger{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;order:99;}
+  .nav-cta{display:none;}
+  .nav-links{display:none;position:fixed;top:60px;left:0;right:0;bottom:0;background:var(--bg-invert);padding:1.5rem;overflow-y:auto;z-index:199;flex-direction:column;gap:.25rem;}
+  .nav-links.is-open{display:flex;}
+  .nav-links>a{padding:.875rem 0;font-size:1.0625rem;color:rgba(250,248,244,.85);min-height:44px;display:flex;align-items:center;}
+  .nav-dropdown{flex-direction:column;align-items:stretch;width:100%;}
+  .nav-dropdown-trigger{padding:.875rem 0;font-size:1.0625rem;color:rgba(250,248,244,.85);width:100%;min-height:44px;display:flex;align-items:center;justify-content:space-between;background:none;border:none;font-family:inherit;cursor:pointer;}
+  .nav-dropdown-menu{position:static;box-shadow:none;border:none;background:rgba(255,255,255,.04);border-radius:.5rem;padding:.5rem 0 .5rem 1rem;min-width:unset;margin:.25rem 0 .75rem;border-left:2px solid rgba(255,255,255,.12);}
+  .nav-dropdown.is-open .nav-dropdown-menu{display:block;}
+  .nav-dropdown-menu a{font-size:1rem;padding:.625rem .75rem;min-height:44px;display:flex;align-items:center;}
+
+  /* ── 3. Layouts → Single Column ── */
+  .article-layout,.review-layout{display:flex!important;flex-direction:column;gap:1.5rem;padding:1.5rem 1rem;}
+  .article-sidebar,.review-sidebar{position:static!important;width:100%;order:-1;}
+  .review-hero-top{display:flex!important;flex-direction:column;gap:1.5rem;}
+  .features-grid{grid-template-columns:1fr!important;gap:1.5rem;}
+  .article-grid{grid-template-columns:1fr!important;gap:1rem;}
+  .article-grid-2col{grid-template-columns:1fr!important;gap:1rem;}
+  .rr-grid{grid-template-columns:1fr!important;gap:.75rem;}
+  .footer-top{grid-template-columns:1fr 1fr!important;gap:1.5rem;}
+  .two-col-table{grid-template-columns:1fr!important;}
+  .pros-cons,.pros-cons-grid{grid-template-columns:1fr!important;}
+  .glossary-layout{grid-template-columns:1fr!important;}
+  .faq-layout{grid-template-columns:1fr!important;}
+
+  /* Stat cards: 2-col on mobile */
+  .stat-row,.hero-stats,.review-stats{display:grid!important;grid-template-columns:1fr 1fr;gap:.75rem;}
+  .key-stat{margin:1rem 0;}
+
+  /* ── 4. Tables — Horizontal Scroll ── */
+  .table-wrapper{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem -1rem;padding:0 1rem;position:relative;}
+  .table-wrapper::after{content:'← scroll →';display:block;text-align:center;font-size:.7rem;color:var(--text-muted);padding:.25rem 0;opacity:.7;}
+  .table-wrapper table{min-width:580px;font-size:.875rem;white-space:nowrap;}
+  .table-wrapper th:first-child,.table-wrapper td:first-child{position:sticky;left:0;background:white;z-index:1;box-shadow:2px 0 4px rgba(0,0,0,.05);}
+  .table-wrapper thead th:first-child{background:var(--bg-surface,#f5f2eb);}
+
+  /* ── 5. Card Grids ── */
+  .lender-grid,.compare-grid{display:flex!important;flex-direction:column;gap:1rem;}
+  .lender-card,.compare-card{width:100%!important;}
+  /* Horizontal carousel for topic/browse cards */
+  .topic-cards,.category-row{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;gap:1rem;padding-bottom:.75rem;}
+  .topic-cards>*,.category-row>*{flex:0 0 85%;scroll-snap-align:start;}
+
+  /* ── 6. Touch Targets ── */
+  a,button,[role="button"]{min-height:44px;}
+  .btn,.btn-cta,.btn-primary,.btn-outline{display:block;width:100%;padding:.875rem 1.5rem;font-size:1rem;text-align:center;min-height:44px;}
+  .chip{min-height:44px;padding:.5rem 1rem;font-size:.9rem;}
+  .faq-item>summary.faq-q{min-height:44px;padding:1rem;}
+  .toc-list a,.sidebar-toc a{min-height:44px;display:flex;align-items:center;}
+
+  /* ── 7. Images ── */
+  img{max-width:100%;height:auto;}
+  figure.article-chart{margin:1rem -1rem;border-radius:0;}
+  figure.article-chart img{border-radius:0;}
+
+  /* ── Spacing & padding adjustments ── */
+  .page-header{padding:1.5rem 1rem;}
+  .page-header-inner{padding:0;}
+  .prose-wrap{padding:1.5rem 1rem;}
+  .breadcrumb{padding:.75rem 1rem 0;font-size:.75rem;}
+  .section-inner,.topic-bar-inner{padding:0;}
+  section[style*="padding:2rem"]{padding:1.5rem 1rem!important;}
+  .callout{margin:1.25rem -.5rem;padding:1rem;border-radius:var(--radius-md);}
+
+  /* ── Filter chips scroll ── */
+  .topic-bar-inner,.chip-row{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding-bottom:.25rem;}
+  .topic-bar{padding:.75rem 1rem;}
+
+  /* ── Footer compact ── */
+  .footer{padding:2rem 1rem 1.5rem;}
+  .footer-bottom{flex-direction:column;text-align:center;gap:.75rem;}
+
+  /* ── Sidebar cards full width ── */
+  .sidebar-card,.sidebar-cta-box{width:100%;}
+
+  /* ── Compare strip / CTA boxes ── */
+  .compare-strip{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .affiliate-box{margin:1.5rem -0.5rem;padding:1.25rem 1rem;border-radius:var(--radius-md);}
+
+  /* ── Who-for boxes ── */
+  .who-for{margin:1rem 0;}
+
+  /* ── Quick recap ── */
+  .quick-recap,.key-takeaways{margin:1rem 0;padding:1rem;}
+
+  /* ── Author bio ── */
+  .author-bio{flex-direction:column!important;align-items:center!important;text-align:center;}
+}
+
+/* ── Extra small (375px and below) ── */
+@media(max-width:400px){
+  h1{font-size:1.5rem!important;}
+  .stat-row,.hero-stats,.review-stats{grid-template-columns:1fr!important;}
+  .footer-top{grid-template-columns:1fr!important;}
+  .topic-bar-inner{gap:.375rem;}
+  .chip{font-size:.8rem;padding:.375rem .75rem;}
+}
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -589,11 +708,13 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
 </div>
 <div class="comparison-table-wrap">
 <h3>Year-by-Year Cumulative Cost Comparison</h3>
+<div class="table-wrapper">
 <table class="comp-table">
 <caption>Equipment Details</caption>
 <thead><tr><th scope="col">Year</th><th scope="col">Buy (Cumulative)</th><th scope="col">Lease (Cumulative)</th><th scope="col">Difference</th></tr></thead>
 <tbody id="compTable"></tbody>
 </table>
+</div>
 </div>
 </div>
 </div>
