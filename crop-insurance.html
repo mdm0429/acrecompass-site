@@ -35,6 +35,9 @@
 <meta content="630" property="og:image:height"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="@acrecompass" name="twitter:site"/>
+<meta name="twitter:title" content="Crop Insurance: A Farmer's Complete Guide — AcreCompass"/>
+<meta name="twitter:description" content="Federal crop insurance guide for farmers. Compare Revenue Protection, Yield Protection, and Whole-Farm policies. Coverage levels, premiums, and deadlines."/>
+<meta name="twitter:image" content="https://acrecompass.com/og-image.jpg"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Lora:ital,wght@0,400;0,600;1,400&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08),0 1px 2px -1px rgba(26,18,8,.05);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--shadow-lg:0 10px 15px -3px rgba(26,18,8,.07),0 4px 6px -4px rgba(26,18,8,.04);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -211,9 +214,9 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
   "datePublished": "2026-05-23",
   "dateModified": "2026-05-23",
   "author": {
-    "@type": "Organization",
-    "@id": "https://acrecompass.com/#organization",
-    "name": "AcreCompass"
+    "@type": "Person",
+    "@id": "https://acrecompass.com/#author",
+    "name": "David Mercer"
   },
   "publisher": {
     "@type": "Organization",
@@ -229,6 +232,14 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
     "@type": "FinancialProduct",
     "name": "Crop Insurance",
     "description": "Federal crop insurance programs protecting farmers against yield losses, revenue shortfalls, and natural disasters."
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-recap",
+      "h1",
+      ".key-stat"
+    ]
   }
 }
 </script>
@@ -318,7 +329,63 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
   .btn{font-size:.78rem;padding:.5rem .75rem;}
   .hero-actions{flex-direction:column;align-items:center;}
 }
-</style></head>
+</style><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is crop insurance and who provides it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crop insurance is a federally subsidized risk management program that protects farmers against crop losses from natural disasters, weather events, or revenue shortfalls. The USDA Risk Management Agency (RMA) administers the program, but policies are sold and serviced by private insurance companies (Approved Insurance Providers or AIPs). The federal government subsidizes 50\u201367% of premiums."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does crop insurance cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crop insurance premiums depend on your coverage level, county, crop, and yield history. At 70% coverage, federal subsidies cover about 59% of the premium. For a typical 500-acre Midwest corn farm, net premiums might run $15\u2013$30 per acre. Higher coverage levels (80\u201385%) cost more per acre but provide a tighter safety net. Premiums are tax-deductible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When do I need to buy crop insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sales closing dates vary by crop and region. For most spring-planted crops (corn, soybeans), the deadline is March 15. Winter wheat deadlines are typically September 30. You must purchase before the deadline \u2014 there are no exceptions. Coverage begins at planting. Contact a crop insurance agent at least 2 weeks before your deadline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Revenue Protection and Yield Protection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Revenue Protection (RP) covers both yield losses AND price declines \u2014 it pays when your revenue per acre falls below the guaranteed level. Yield Protection (YP) only covers yield shortfalls at a set price. RP costs about 10\u201320% more in premium but covers the more common scenario where prices drop during the growing season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get crop insurance as a beginning farmer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 beginning farmers receive additional premium subsidies (10 percentage points higher than standard) for the first 5 years. You also qualify for catastrophic (CAT) coverage with $0 premium (only a $655 administrative fee). These benefits make crop insurance very affordable for new operations and are a strong signal to lenders evaluating your loan application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does crop insurance interact with my farm loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most farm lenders require borrowers to carry crop insurance \u2014 typically at least 70% coverage. Insurance protects both you and the lender: if a disaster destroys your crop, the insurance indemnity helps you repay operating loans. Many lenders assign crop insurance proceeds as additional collateral. Higher coverage levels may allow lenders to extend more operating credit."
+      }
+    }
+  ]
+}
+</script>
+</head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PRQ8SBTV" style="display:none;visibility:hidden" width="0"></iframe></noscript>
@@ -463,7 +530,7 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
 <svg fill="none" height="18" stroke="white" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="12" cy="12" r="3"></circle><path d="M19.07 4.93a10 10 0 0 1 1.64 12.54M4.93 4.93A10 10 0 0 0 3.29 17.47"></path></svg>
 </div>
 <div class="agent-callout-body">
-<h4>Find a Licensed Crop Insurance Agent</h4>
+<p class="cta-title"><strong>Find a Licensed Crop Insurance Agent</strong></p>
 <p>Crop insurance must be purchased through a USDA-approved agent — search by state and crop type at rma.usda.gov. AcreCompass does not sell insurance and earns no commission on policy purchases.</p>
 <a class="btn-info-sm" href="https://www.rma.usda.gov/" rel="noopener" target="_blank">Find an Agent at RMA.USDA.gov →</a>
 </div>
@@ -581,10 +648,37 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
 </div>
 </div>
 <div class="related-resources">
+<div class="faq" id="faq">
+<h2>Frequently Asked Questions</h2>
+<details class="faq-item" open="">
+<summary class="faq-q">What is crop insurance and who provides it? <svg class="faq-chevron" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+<div class="faq-a">Crop insurance is a federally subsidized risk management program that protects farmers against crop losses from natural disasters, weather events, or revenue shortfalls. The USDA Risk Management Agency (RMA) administers the program, but policies are sold and serviced by private insurance companies (Approved Insurance Providers or AIPs). The federal government subsidizes 50–67% of premiums.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">How much does crop insurance cost? <svg class="faq-chevron" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+<div class="faq-a">Crop insurance premiums depend on your coverage level, county, crop, and yield history. At 70% coverage, federal subsidies cover about 59% of the premium. For a typical 500-acre Midwest corn farm, net premiums might run $15–$30 per acre. Higher coverage levels (80–85%) cost more per acre but provide a tighter safety net. Premiums are tax-deductible.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">When do I need to buy crop insurance? <svg class="faq-chevron" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+<div class="faq-a">Sales closing dates vary by crop and region. For most spring-planted crops (corn, soybeans), the deadline is March 15. Winter wheat deadlines are typically September 30. You must purchase before the deadline — there are no exceptions. Coverage begins at planting. Contact a crop insurance agent at least 2 weeks before your deadline.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">What is the difference between Revenue Protection and Yield Protection? <svg class="faq-chevron" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+<div class="faq-a">Revenue Protection (RP) covers both yield losses AND price declines — it pays when your revenue per acre falls below the guaranteed level. Yield Protection (YP) only covers yield shortfalls at a set price. RP costs about 10–20% more in premium but covers the more common scenario where prices drop during the growing season.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">Can I get crop insurance as a beginning farmer? <svg class="faq-chevron" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+<div class="faq-a">Yes — beginning farmers receive additional premium subsidies (10 percentage points higher than standard) for the first 5 years. You also qualify for catastrophic (CAT) coverage with $0 premium (only a $655 administrative fee). These benefits make crop insurance very affordable for new operations and are a strong signal to lenders evaluating your loan application.</div>
+</details>
+<details class="faq-item">
+<summary class="faq-q">How does crop insurance interact with my farm loan? <svg class="faq-chevron" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><polyline points="6 9 12 15 18 9"></polyline></svg></summary>
+<div class="faq-a">Most farm lenders require borrowers to carry crop insurance — typically at least 70% coverage. Insurance protects both you and the lender: if a disaster destroys your crop, the insurance indemnity helps you repay operating loans. Many lenders assign crop insurance proceeds as additional collateral. Higher coverage levels may allow lenders to extend more operating credit.</div>
+</details>
+</div>
 <h2>Related Resources</h2>
 <p class="rr-sub">Government resources and guides that work alongside crop insurance.</p>
 <aside aria-label="Quick Recap" class="quick-recap">
-<h4>Quick Recap</h4>
+<p class="aside-title"><strong>Quick Recap</strong></p>
 <ul>
 <li>Federal crop insurance covers 490 million acres and over 100 crops in the U.S.</li>
 <li>Revenue Protection (RP) is the most popular policy type — it covers both price drops and yield losses</li>
@@ -635,7 +729,7 @@ figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding
 <p>Your compass for farm financing. Independent educational content. AcreCompass does not sell crop insurance.</p>
 </div>
 <div class="footer-col">
-<h4>Crop Insurance</h4>
+<h3>Crop Insurance</h3>
 <a href="/pages/crop-insurance-how-it-works.html">How It Works</a>
 <a href="/pages/crop-insurance-revenue-protection.html">RP vs. YP</a>
 <a href="https://www.rma.usda.gov/" rel="noopener" target="_blank">Find an Agent (RMA) →</a>
