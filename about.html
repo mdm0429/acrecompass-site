@@ -1,29 +1,30 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PRQ8SBTV');</script>
-    <!-- End Google Tag Manager -->
-<meta charset="UTF-8">
-<meta name='impact-site-verification' value='c74045d5-de38-464a-8e54-aeb7b8bed55a'>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- End Google Tag Manager -->
+<meta charset="utf-8"/>
+<meta name="impact-site-verification" value="c74045d5-de38-464a-8e54-aeb7b8bed55a"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>About AcreCompass — Independent Agricultural Finance Research</title>
-<meta name="description" content="AcreCompass is an independent research team helping farmers find better financing. Our editorial mission, methodology, and commitment to unbiased guidance.">
-<meta property="og:type" content="article">
-<meta property="og:site_name" content="AcreCompass">
-<meta property="og:title" content="About AcreCompass — Independent Agricultural Finance Research">
-<meta property="og:description" content="AcreCompass is an independent research team helping farmers find better financing. Our editorial mission, methodology, and commitment to unbiased guidance.">
-<meta property="og:url" content="https://acrecompass.com/about.html">
-<meta property="og:image" content="https://acrecompass.com/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@acrecompass">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta content="AcreCompass is an independent research team helping farmers find better financing. Our editorial mission, methodology, and commitment to unbiased guidance." name="description"/>
+<meta content="article" property="og:type"/>
+<meta content="AcreCompass" property="og:site_name"/>
+<meta content="About AcreCompass — Independent Agricultural Finance Research" property="og:title"/>
+<meta content="AcreCompass is an independent research team helping farmers find better financing. Our editorial mission, methodology, and commitment to unbiased guidance." property="og:description"/>
+<meta content="https://acrecompass.com/about.html" property="og:url"/>
+<meta content="https://acrecompass.com/og-image.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@acrecompass" name="twitter:site"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Lora:ital,wght@0,400;0,600;1,400&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
 *,*::before,*::after{box-sizing:border-box;margin:0;}
@@ -95,6 +96,28 @@ footer{background:var(--bg-invert);padding:3rem 2rem 2rem;margin-top:4rem;}
 .footer-bottom p{font-size:.72rem;color:rgba(250,248,244,.3);line-height:1.55;}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+
+/* ── Semantic FAQ (details/summary native) ── */
+details.faq-item{border:1px solid var(--border);border-radius:var(--radius-lg);margin-bottom:.625rem;overflow:hidden;list-style:none;}
+details.faq-item>summary.faq-q{padding:1rem 1.25rem;font-size:.925rem;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:white;user-select:none;list-style:none;}
+details.faq-item>summary.faq-q::-webkit-details-marker{display:none;}
+details.faq-item>summary.faq-q::marker{display:none;}
+details.faq-item>summary.faq-q:hover{background:var(--bg-surface);}
+details.faq-item>.faq-a{padding:.75rem 1.25rem 1rem;font-size:.875rem;color:var(--text-secondary);line-height:1.7;}
+details.faq-item[open]>.faq-q .faq-chevron,details.faq-item[open]>summary.faq-q .faq-chevron{transform:rotate(180deg);}
+/* ── Blockquote ── */
+blockquote.stat-quote{border-left:3px solid var(--brand);padding:.75rem 1.25rem;margin:1.5rem 0;background:var(--bg-brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;}
+blockquote.stat-quote p{font-family:var(--font-display);font-style:italic;font-size:1rem;color:var(--text-primary);margin:0 0 .375rem;}
+blockquote.stat-quote cite{font-size:.75rem;color:var(--text-muted);font-style:normal;}
+/* ── Abbreviations ── */
+abbr[title]{text-decoration:underline dotted var(--text-muted);cursor:help;}
+/* ── Nav TOC ── */
+nav.sidebar-toc{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem;margin-bottom:1.25rem;}
+nav.sidebar-toc h4{font-family:var(--font-sans);font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--text-muted);margin-bottom:.875rem;}
+nav.sidebar-toc ol{padding-left:1.25rem;margin:0;}
+nav.sidebar-toc li{font-size:.8rem;margin-bottom:.35rem;color:var(--text-secondary);}
+nav.sidebar-toc a{color:var(--text-secondary);}
+nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 </style>
 <script type="application/ld+json">
 {
@@ -122,181 +145,164 @@ footer{background:var(--bg-invert);padding:3rem 2rem 2rem;margin-top:4rem;}
   ]
 }
 </script>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#2D7D2D">
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<meta content="#2D7D2D" name="theme-color"/>
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRQ8SBTV"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-<nav class="nav" aria-label="Main navigation">
-  <div class="nav-logo">
-    <svg width="28" height="28" viewBox="0 0 40 40" fill="none"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"/><path d="M30 10 A14 14 0 0 1 36 20" stroke="#E8860A" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="36" cy="20" r="2.5" fill="#E8860A"/></svg>
-    <span class="nav-wordmark">AcreCompass</span>
-  </div>
-  <div class="nav-links">
-    <a href="#">Farm Loans</a>
-    <a href="#">USDA Programs</a>
-    <a href="#">Lenders</a>
-    <a href="#">Calculators</a>
-    <a href="#">State Guides</a>
-  </div>
-  <a href="#" class="nav-cta">Compare Rates →</a>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PRQ8SBTV" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<nav aria-label="Main navigation" class="nav">
+<div class="nav-logo">
+<svg fill="none" height="28" viewbox="0 0 40 40" width="28"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"></path><path d="M30 10 A14 14 0 0 1 36 20" fill="none" stroke="#E8860A" stroke-linecap="round" stroke-width="2.5"></path><circle cx="36" cy="20" fill="#E8860A" r="2.5"></circle></svg>
+<span class="nav-wordmark">AcreCompass</span>
+</div>
+<div class="nav-links">
+<a href="#">Farm Loans</a>
+<a href="#"><abbr title="U.S. Department of Agriculture">USDA</abbr> Programs</a>
+<a href="#">Lenders</a>
+<a href="#">Calculators</a>
+<a href="#">State Guides</a>
+</div>
+<a class="nav-cta" href="#">Compare Rates →</a>
 </nav>
 <main>
-
 <header class="page-header">
-  <div class="page-header-inner">
-    <nav class="breadcrumb">
-      <a href="#">Home</a>
-      <span class="breadcrumb-sep">›</span>
-      <span>About AcreCompass</span>
-    </nav>
-    <h1>About AcreCompass</h1>
-    <p class="deck">We're an independent research team focused on one thing: helping farmers find better financing.</p>
-    <div class="page-meta">
-      <span>acrecompass.com</span>
-      <span>Updated May 2026</span>
-    </div>
-  </div>
-</header>
-
-<div class="prose-wrap">
-
-  <div class="page-toc">
-    <h4>On this page</h4>
-    <ul class="toc-list">
-      <li><a href="#mission">Our Mission</a></li>
-      <li><a href="#what-we-cover">What We Cover</a></li>
-      <li><a href="#editorial-standards">Our Editorial Standards</a></li>
-      <li><a href="#who-we-are-not">Who We're Not</a></li>
-      <li><a href="#contact">Contact Us</a></li>
-    </ul>
-  </div>
-
-  <div class="prose">
-
-    <h2 id="mission">Our Mission</h2>
-    <p>AcreCompass was built because agricultural lending is one of the most underserved categories in personal finance content. Most farm finance information comes from two sources: government agencies — comprehensive but hard to navigate — or lenders themselves, who are biased by definition. Independent, comparison-oriented agricultural finance content barely exists.</p>
-    <p>We fill that gap. AcreCompass publishes independent research on farm loans, lender reviews, calculators, and financing guides written for farmers — not for lenders, not for financial professionals, and not for an academic audience. We write the way a knowledgeable friend in agricultural lending would explain something: directly, with the specific numbers and timelines you need to make a decision.</p>
-    <p>Our editorial team has backgrounds in agricultural journalism, financial analysis, and farm operations. We don't pretend to know your farm better than you do — but we know the lending landscape, the rate benchmarks, and the program details that help you ask the right questions and avoid the most expensive mistakes.</p>
-
-    <div class="callout callout-brand">
-      <h4>Why independent matters</h4>
-      <p>When you read a lender's own website to understand your financing options, you're reading marketing copy. When you read a government agency guide, you're reading policy documentation that wasn't written for someone in the middle of a planting decision. AcreCompass exists in the space between those two sources — editorial content that is genuinely trying to help you make a better decision, backed by our published methodology and our commitment to including FSA options even though we earn no commission from the government.</p>
-    </div>
-
-    <h2 id="what-we-cover">What We Cover</h2>
-    <p>AcreCompass publishes guides, lender reviews, calculators, and state-specific resources covering the full range of agricultural financing:</p>
-    <ul>
-      <li><strong>Farm land loans</strong> — purchase and refinance financing for farmland, including FSA direct loans, Farm Credit, and commercial bank options</li>
-      <li><strong>USDA FSA programs</strong> — direct operating loans, farm ownership loans, beginning farmer programs, emergency loans, and Marketing Assistance Loans</li>
-      <li><strong>Operating capital</strong> — seasonal operating lines of credit, short-term bridge financing, and commercial working capital loans</li>
-      <li><strong>Equipment financing</strong> — tractors, combines, irrigation systems, grain handling equipment, and precision agriculture technology</li>
-      <li><strong>Crop insurance</strong> — coverage types, premium calculations, and how insurance interacts with loan covenants</li>
-      <li><strong>Beginning farmer programs</strong> — USDA, state-level, and nonprofit programs specifically designed for new farm operators</li>
-      <li><strong>State guides</strong> — state-specific programs, FSA county contacts, and lenders operating in each market</li>
-    </ul>
-    <p>Our content covers all 50 states and is updated on a rolling basis as rates and programs change. FSA rates are updated within 2 business days of each USDA quarterly publication. Commercial lender rates are audited monthly.</p>
-
-    <h2 id="editorial-standards">Our Editorial Standards</h2>
-    <p>Our lender reviews are based on a documented, published scoring methodology — you can read the full methodology at <a href="how-we-rate-lenders.html">How We Rate Farm Lenders</a>. Every review follows a standardized process: data collection from public lender sources, mystery shopping (we contact lenders as prospective borrowers), a 100-point scoring rubric applied by our editorial team, and an editorial review before publication.</p>
-    <p><strong>Lenders cannot pay to improve their scores or rankings.</strong> We include USDA FSA programs in every relevant comparison because they offer the best rates available for qualifying borrowers — even though we earn no commission from the government. Affiliate compensation does not determine which lenders we include, exclude, or recommend.</p>
-    <p>We disclose all affiliate relationships inline, near the relevant call-to-action. We use a standard disclosure language — "Affiliate link — we may earn a commission" — adjacent to any link where a referral fee may be earned. We do not use "sponsored content" labels for our reviews, because our reviews represent independent editorial judgment, not sponsored content.</p>
-    <p>When we make an error, we correct it. Factual corrections are published with a correction note and a revised date. We invite readers and lenders to submit factual corrections through our editorial contact address — and we commit to reviewing and responding to genuine factual challenges within 5 business days.</p>
-
-    <div class="callout callout-info">
-      <h4>Our position on FSA programs</h4>
-      <p>We make a point of including FSA Direct loans, FSA Guaranteed loans, and other USDA programs in all relevant comparisons — even though we have no affiliate relationship with the government and earn nothing from those recommendations. We do this because FSA programs frequently represent the best financial option for qualifying farmers, and excluding them from comparisons would make our content misleading. We believe our readers deserve to see the full market, including options that don't benefit us financially.</p>
-    </div>
-
-    <h2 id="who-we-are-not">Who We're Not</h2>
-    <p>AcreCompass is not a lender, mortgage broker, insurance agent, or financial advisor. We do not originate loans. We do not process loan applications. We do not provide financial advice tailored to your specific situation.</p>
-    <p>We are a research and editorial publication. Nothing on this site constitutes a loan offer, investment recommendation, or financial advice. The calculators, rate tables, and financing guides on AcreCompass are educational tools — they are designed to help you understand the landscape and ask better questions of the lenders and advisors who will actually work with your operation.</p>
-    <p>If you are facing a specific lending decision, especially a complex one involving tax implications, land purchase, or government program eligibility, we encourage you to work with a professional: a qualified farm CPA, an agricultural lender with local knowledge, or your county FSA Service Center team.</p>
-
-    <h2 id="contact">Contact Us</h2>
-    <p>For general editorial inquiries, corrections, or feedback about our content:</p>
-    <p><strong>Editorial:</strong> <a href="mailto:editorial@acrecompass.com">editorial@acrecompass.com</a></p>
-    <p>For factual corrections to specific lender reviews:</p>
-    <p><strong>Corrections:</strong> <a href="mailto:corrections@acrecompass.com">corrections@acrecompass.com</a></p>
-    <p>We review all factual correction requests and respond within 5 business days. We will not engage with requests to improve scores, remove negative findings, or alter editorial assessments based on commercial considerations.</p>
-
-    <!-- Related Resources -->
-    <div class="related-resources">
-      <h2>Related Resources</h2>
-      <p class="rr-sub">More about how AcreCompass works.</p>
-      <div class="rr-grid">
-        <a href="how-we-rate-lenders.html" class="rr-card">
-          <div class="rr-thumb">📊</div>
-          <div class="rr-body">
-            <span class="rr-badge">Methodology</span>
-            <div class="rr-title">How We Rate Farm Lenders</div>
-          </div>
-        </a>
-        <a href="advertiser-disclosure.html" class="rr-card">
-          <div class="rr-thumb">📋</div>
-          <div class="rr-body">
-            <span class="rr-badge">Transparency</span>
-            <div class="rr-title">Advertiser Disclosure</div>
-          </div>
-        </a>
-        <a href="#" class="rr-card">
-          <div class="rr-thumb">⚖️</div>
-          <div class="rr-body">
-            <span class="rr-badge">Comparison</span>
-            <div class="rr-title">Best Farm Lenders 2026</div>
-          </div>
-        </a>
-      </div>
-    </div>
-
-  </div>
+<div class="page-header-inner">
+<nav class="breadcrumb">
+<a href="#">Home</a>
+<span class="breadcrumb-sep">›</span>
+<span>About AcreCompass</span>
+</nav>
+<h1>About AcreCompass</h1>
+<p class="deck">We're an independent research team focused on one thing: helping farmers find better financing.</p>
+<div class="page-meta">
+<span>acrecompass.com</span>
+<span>Updated May 2026</span>
 </div>
-
+</div>
+</header>
+<div class="prose-wrap">
+<div class="page-toc">
+<h4>On this page</h4>
+<ul class="toc-list">
+<li><a href="#mission">Our Mission</a></li>
+<li><a href="#what-we-cover">What We Cover</a></li>
+<li><a href="#editorial-standards">Our Editorial Standards</a></li>
+<li><a href="#who-we-are-not">Who We're Not</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</div>
+<div class="prose">
+<h2 id="mission">Our Mission</h2>
+<p>AcreCompass was built because agricultural lending is one of the most underserved categories in personal finance content. Most farm finance information comes from two sources: government agencies — comprehensive but hard to navigate — or lenders themselves, who are biased by definition. Independent, comparison-oriented agricultural finance content barely exists.</p>
+<p>We fill that gap. AcreCompass publishes independent research on farm loans, lender reviews, calculators, and financing guides written for farmers — not for lenders, not for financial professionals, and not for an academic audience. We write the way a knowledgeable friend in agricultural lending would explain something: directly, with the specific numbers and timelines you need to make a decision.</p>
+<p>Our editorial team has backgrounds in agricultural journalism, financial analysis, and farm operations. We don't pretend to know your farm better than you do — but we know the lending landscape, the rate benchmarks, and the program details that help you ask the right questions and avoid the most expensive mistakes.</p>
+<div class="callout callout-brand">
+<h4>Why independent matters</h4>
+<p>When you read a lender's own website to understand your financing options, you're reading marketing copy. When you read a government agency guide, you're reading policy documentation that wasn't written for someone in the middle of a planting decision. AcreCompass exists in the space between those two sources — editorial content that is genuinely trying to help you make a better decision, backed by our published methodology and our commitment to including <abbr title="Farm Service Agency">FSA</abbr> options even though we earn no commission from the government.</p>
+</div>
+<h2 id="what-we-cover">What We Cover</h2>
+<p>AcreCompass publishes guides, lender reviews, calculators, and state-specific resources covering the full range of agricultural financing:</p>
+<ul>
+<li><strong>Farm land loans</strong> — purchase and refinance financing for farmland, including FSA direct loans, Farm Credit, and commercial bank options</li>
+<li><strong>USDA FSA programs</strong> — direct operating loans, farm ownership loans, beginning farmer programs, emergency loans, and Marketing Assistance Loans</li>
+<li><strong>Operating capital</strong> — seasonal operating lines of credit, short-term bridge financing, and commercial working capital loans</li>
+<li><strong>Equipment financing</strong> — tractors, combines, irrigation systems, grain handling equipment, and precision agriculture technology</li>
+<li><strong>Crop insurance</strong> — coverage types, premium calculations, and how insurance interacts with loan covenants</li>
+<li><strong>Beginning farmer programs</strong> — USDA, state-level, and nonprofit programs specifically designed for new farm operators</li>
+<li><strong>State guides</strong> — state-specific programs, FSA county contacts, and lenders operating in each market</li>
+</ul>
+<p>Our content covers all 50 states and is updated on a rolling basis as rates and programs change. FSA rates are updated within 2 business days of each USDA quarterly publication. Commercial lender rates are audited monthly.</p>
+<h2 id="editorial-standards">Our Editorial Standards</h2>
+<p>Our lender reviews are based on a documented, published scoring methodology — you can read the full methodology at <a href="how-we-rate-lenders.html">How We Rate Farm Lenders</a>. Every review follows a standardized process: data collection from public lender sources, mystery shopping (we contact lenders as prospective borrowers), a 100-point scoring rubric applied by our editorial team, and an editorial review before publication.</p>
+<p><strong>Lenders cannot pay to improve their scores or rankings.</strong> We include USDA FSA programs in every relevant comparison because they offer the best rates available for qualifying borrowers — even though we earn no commission from the government. Affiliate compensation does not determine which lenders we include, exclude, or recommend.</p>
+<p>We disclose all affiliate relationships inline, near the relevant call-to-action. We use a standard disclosure language — "Affiliate link — we may earn a commission" — adjacent to any link where a referral fee may be earned. We do not use "sponsored content" labels for our reviews, because our reviews represent independent editorial judgment, not sponsored content.</p>
+<p>When we make an error, we correct it. Factual corrections are published with a correction note and a revised date. We invite readers and lenders to submit factual corrections through our editorial contact address — and we commit to reviewing and responding to genuine factual challenges within 5 business days.</p>
+<div class="callout callout-info">
+<h4>Our position on FSA programs</h4>
+<p>We make a point of including FSA Direct loans, FSA Guaranteed loans, and other USDA programs in all relevant comparisons — even though we have no affiliate relationship with the government and earn nothing from those recommendations. We do this because FSA programs frequently represent the best financial option for qualifying farmers, and excluding them from comparisons would make our content misleading. We believe our readers deserve to see the full market, including options that don't benefit us financially.</p>
+</div>
+<h2 id="who-we-are-not">Who We're Not</h2>
+<p>AcreCompass is not a lender, mortgage broker, insurance agent, or financial advisor. We do not originate loans. We do not process loan applications. We do not provide financial advice tailored to your specific situation.</p>
+<p>We are a research and editorial publication. Nothing on this site constitutes a loan offer, investment recommendation, or financial advice. The calculators, rate tables, and financing guides on AcreCompass are educational tools — they are designed to help you understand the landscape and ask better questions of the lenders and advisors who will actually work with your operation.</p>
+<p>If you are facing a specific lending decision, especially a complex one involving tax implications, land purchase, or government program eligibility, we encourage you to work with a professional: a qualified farm CPA, an agricultural lender with local knowledge, or your county FSA Service Center team.</p>
+<h2 id="contact">Contact Us</h2>
+<p>For general editorial inquiries, corrections, or feedback about our content:</p>
+<p><strong>Editorial:</strong> <a href="mailto:editorial@acrecompass.com">editorial@acrecompass.com</a></p>
+<p>For factual corrections to specific lender reviews:</p>
+<p><strong>Corrections:</strong> <a href="mailto:corrections@acrecompass.com">corrections@acrecompass.com</a></p>
+<p>We review all factual correction requests and respond within 5 business days. We will not engage with requests to improve scores, remove negative findings, or alter editorial assessments based on commercial considerations.</p>
+<!-- Related Resources -->
+<div class="related-resources">
+<h2>Related Resources</h2>
+<p class="rr-sub">More about how AcreCompass works.</p>
+<div class="rr-grid">
+<a class="rr-card" href="how-we-rate-lenders.html">
+<div class="rr-thumb">📊</div>
+<div class="rr-body">
+<span class="rr-badge">Methodology</span>
+<div class="rr-title">How We Rate Farm Lenders</div>
+</div>
+</a>
+<a class="rr-card" href="advertiser-disclosure.html">
+<div class="rr-thumb">📋</div>
+<div class="rr-body">
+<span class="rr-badge">Transparency</span>
+<div class="rr-title">Advertiser Disclosure</div>
+</div>
+</a>
+<a class="rr-card" href="#">
+<div class="rr-thumb">⚖️</div>
+<div class="rr-body">
+<span class="rr-badge">Comparison</span>
+<div class="rr-title">Best Farm Lenders 2026</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
 </main>
 <footer>
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <div style="display:flex;align-items:center;gap:.5rem;">
-        <svg width="24" height="24" viewBox="0 0 40 40" fill="none"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"/><path d="M30 10 A14 14 0 0 1 36 20" stroke="#E8860A" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="36" cy="20" r="2.5" fill="#E8860A"/></svg>
-        <span style="font-family:var(--font-display);color:var(--text-invert);font-size:.95rem;font-weight:600;">AcreCompass</span>
-      </div>
-      <p>Independent research and editorial reviews for agricultural financing. Your compass for farm financing. We are not a lender.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Farm Loans</h4>
-      <a href="#">Operating Loans</a>
-      <a href="#">Land Purchase Loans</a>
-      <a href="#">Equipment Financing</a>
-      <a href="#">Beginning Farmer Loans</a>
-    </div>
-    <div class="footer-col">
-      <h4>Lenders</h4>
-      <a href="#">National Funding</a>
-      <a href="#">Fora Financial</a>
-      <a href="#">AgDirect</a>
-      <a href="#">Compare All →</a>
-    </div>
-    <div class="footer-col">
-      <h4>Company</h4>
-      <a href="about.html" style="color:var(--text-invert);">About AcreCompass</a>
-      <a href="how-we-rate-lenders.html">How We Rate Lenders</a>
-      <a href="advertiser-disclosure.html">Advertiser Disclosure</a>
-      <a href="/privacy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 AcreCompass. All rights reserved. Not affiliated with USDA or any government agency.</p>
-    <p>Editorial content is independent from affiliate relationships. <a href="advertiser-disclosure.html" style="color:rgba(250,248,244,.5);">Advertiser Disclosure</a></p>
-  </div>
+<div class="footer-inner">
+<div class="footer-brand">
+<div style="display:flex;align-items:center;gap:.5rem;">
+<svg fill="none" height="24" viewbox="0 0 40 40" width="24"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"></path><path d="M30 10 A14 14 0 0 1 36 20" fill="none" stroke="#E8860A" stroke-linecap="round" stroke-width="2.5"></path><circle cx="36" cy="20" fill="#E8860A" r="2.5"></circle></svg>
+<span style="font-family:var(--font-display);color:var(--text-invert);font-size:.95rem;font-weight:600;">AcreCompass</span>
+</div>
+<p>Independent research and editorial reviews for agricultural financing. Your compass for farm financing. We are not a lender.</p>
+</div>
+<div class="footer-col">
+<h4>Farm Loans</h4>
+<a href="#">Operating Loans</a>
+<a href="#">Land Purchase Loans</a>
+<a href="#">Equipment Financing</a>
+<a href="#">Beginning Farmer Loans</a>
+</div>
+<div class="footer-col">
+<h4>Lenders</h4>
+<a href="#">National Funding</a>
+<a href="#">Fora Financial</a>
+<a href="#">AgDirect</a>
+<a href="#">Compare All →</a>
+</div>
+<div class="footer-col">
+<h4>Company</h4>
+<a href="about.html" style="color:var(--text-invert);">About AcreCompass</a><a href="/glossary.html">Finance Glossary</a>
+<a href="how-we-rate-lenders.html">How We Rate Lenders</a>
+<a href="advertiser-disclosure.html">Advertiser Disclosure</a>
+<a href="/privacy/">Privacy Policy</a><a href="/terms-of-service/">Terms of Service</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 AcreCompass. All rights reserved. Not affiliated with USDA or any government agency.</p>
+<p>Editorial content is independent from affiliate relationships. <a href="advertiser-disclosure.html" style="color:rgba(250,248,244,.5);">Advertiser Disclosure</a></p>
+</div>
 </footer>
-
 </body>
 </html>
