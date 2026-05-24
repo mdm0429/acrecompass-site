@@ -13,13 +13,13 @@
 <meta name="impact-site-verification" value="c74045d5-de38-464a-8e54-aeb7b8bed55a"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Farm Loan Payment Calculator 2026 — AcreCompass</title>
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#2D7D2D">
+<link href="/favicon.ico" rel="icon" sizes="32x32"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<meta content="#2D7D2D" name="theme-color"/>
 <meta content="Estimate your monthly farm loan payment with our free calculator. Enter loan amount, rate, and term to compare FSA, Farm Credit, and commercial scenarios." name="description"/>
-<meta content="article" property="og:type"/>
+<meta content="article" property="og:type">
 <meta content="AcreCompass" property="og:site_name"/>
 <meta content="Farm Loan Payment Calculator 2026 — AcreCompass" property="og:title"/>
 <meta content="Estimate your monthly farm loan payment with our free calculator. Enter loan amount, rate, and term to compare FSA, Farm Credit, and commercial scenarios." property="og:description"/>
@@ -187,6 +187,11 @@ nav.sidebar-toc ol{padding-left:1.25rem;margin:0;}
 nav.sidebar-toc li{font-size:.8rem;margin-bottom:.35rem;color:var(--text-secondary);}
 nav.sidebar-toc a{color:var(--text-secondary);}
 nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
+
+/* ── Editorial chart ── */
+figure.article-chart{margin:1.75rem 0;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;background:white;}
+figure.article-chart img{width:100%;height:auto;display:block;}
+figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding:.5rem 1rem;border-top:1px solid var(--border-subtle);font-style:italic;}
 </style>
 <script type="application/ld+json">
 {
@@ -239,7 +244,7 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
   ]
 }
 </script>
-</head>
+</meta></head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PRQ8SBTV" style="display:none;visibility:hidden" width="0"></iframe></noscript>
@@ -275,7 +280,7 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 <div class="input-panel">
 <h3>Loan Details</h3>
 <div class="form-group">
-<label class="form-label">Loan Amount <span class="form-label-hint">$10K–$5M</span></label>
+<label class="form-label">Loan Amount <span class="form-label-hint"><code>$10K</code>–$5M</span></label>
 <div class="input-prefix">
 <span class="prefix-sym">$</span>
 <input class="form-input" id="loanAmount" max="5000000" min="10000" oninput="calculate()" step="1000" type="number" value="500000"/>
@@ -382,8 +387,8 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 <div class="explainer">
 <div class="explainer-block">
 <h2>How to Use This Calculator</h2>
-<p>Enter your loan amount, the annual interest rate quoted by your lender, and the loan term in years. The calculator instantly outputs your estimated monthly payment, the total interest you'll pay over the life of the loan, and an amortization schedule showing how each payment splits between principal and interest reduction.</p>
-<blockquote class="stat-quote"><p>If you're comparing multiple lenders, run the calculation at each lender's quoted rate to see the real dollar cost difference over the full term. A 1% rate difference on a $500,000 loan over 20 years translates to roughly $60,000 in additional interest.</p><cite>— USDA Agricultural Finance Data, 2026</cite></blockquote>
+<figure class="article-chart"><img alt="Rate comparison chart showing the range of farm loan interest rates from FSA to commercial lenders" height="420" loading="lazy" src="/images/chart-operating-rates.png" width="800"/><figcaption>Use current rates in your loan payment calculation. FSA Direct is typically the lowest starting point.</figcaption></figure><p>Enter your loan amount, the annual interest rate quoted by your lender, and the loan term in years. The calculator instantly outputs your estimated monthly payment, the total interest you'll pay over the life of the loan, and an amortization schedule showing how each payment splits between principal and interest reduction.</p>
+<blockquote class="stat-quote"><p>If you're comparing multiple lenders, run the calculation at each lender's quoted rate to see the real dollar cost difference over the full term. A 1% rate difference on a <code>$500,000</code> loan over <code>20 years</code> translates to roughly $60,000 in additional interest.</p><cite>— USDA Agricultural Finance Data, 2026</cite></blockquote>
 <p>The "Loan Type" dropdown updates the benchmark note below the inputs with current rate context for that loan category — useful for understanding how your quoted rate compares to government and commercial options.</p>
 <p>Results calculate automatically as you type or adjust the slider. Use the amortization table to see exactly how much of each payment goes to reducing principal versus paying interest — in the early years of a long-term loan, most of each payment is interest.</p>
 <div class="callout-info-box">
@@ -395,7 +400,7 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 <h2>Understanding Your Results</h2>
 <p>The <strong>Monthly Payment</strong> shown is the fixed amount required each month to fully repay your loan by the end of the term — this is the standard amortizing payment calculation used by all banks and the USDA.</p>
 <p>The <strong>Total Interest Paid</strong> figure shows the true cost of borrowing: all monthly payments added up, minus the original principal. For long-term land loans this number is often larger than the original loan amount — this is normal and not an error.</p>
-<p>The <strong>Effective Annual Cost %</strong> expresses total interest as a percentage of your original principal, which helps you compare loans with different terms on an apples-to-apples basis. A 7% rate over 30 years has a much higher effective cost than 7% over 5 years.</p>
+<p>The <strong>Effective Annual Cost %</strong> expresses total interest as a percentage of your original principal, which helps you compare loans with different terms on an apples-to-apples basis. A 7% rate over <code>30 years</code> has a much higher effective cost than 7% over 5 years.</p>
 <p>The <strong>Rate Comparison</strong> chart anchors your rate against the current FSA Direct floor (5.50%) and the approximate commercial ceiling (24%), so you can see where you fall in the market at a glance.</p>
 <div class="callout-info-box">
 <h5>Fixed vs. variable rates</h5>
@@ -421,7 +426,7 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 <ul>
 <li>Enter your loan amount, interest rate, and term to estimate monthly payments, total interest, and total cost</li>
 <li>Benchmark rates: FSA Direct from 5.50%, Farm Credit from 5.85%, commercial lenders 7%+</li>
-<li>A 1% rate difference on a $500,000 loan over 20 years adds approximately $60,000 in total interest</li>
+<li>A 1% rate difference on a <code>$500,000</code> loan over <code>20 years</code> adds approximately $60,000 in total interest</li>
 <li>Use the amortization schedule to see how each payment splits between principal and interest over the life of the loan</li>
 <li>Compare FSA vs. commercial scenarios side by side to see whether the longer FSA approval timeline is worth the rate savings</li>
 </ul>

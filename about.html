@@ -13,13 +13,13 @@
 <meta name="impact-site-verification" value="c74045d5-de38-464a-8e54-aeb7b8bed55a"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>About AcreCompass — Independent Agricultural Finance Research</title>
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#2D7D2D">
+<link href="/favicon.ico" rel="icon" sizes="32x32"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<meta content="#2D7D2D" name="theme-color"/>
 <meta content="AcreCompass is an independent research team helping farmers find better financing. Our editorial mission, methodology, and commitment to unbiased guidance." name="description"/>
-<meta content="article" property="og:type"/>
+<meta content="article" property="og:type">
 <meta content="AcreCompass" property="og:site_name"/>
 <meta content="About AcreCompass — Independent Agricultural Finance Research" property="og:title"/>
 <meta content="AcreCompass is an independent research team helping farmers find better financing. Our editorial mission, methodology, and commitment to unbiased guidance." property="og:description"/>
@@ -123,6 +123,11 @@ nav.sidebar-toc ol{padding-left:1.25rem;margin:0;}
 nav.sidebar-toc li{font-size:.8rem;margin-bottom:.35rem;color:var(--text-secondary);}
 nav.sidebar-toc a{color:var(--text-secondary);}
 nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
+
+/* ── Editorial chart ── */
+figure.article-chart{margin:1.75rem 0;border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;background:white;}
+figure.article-chart img{width:100%;height:auto;display:block;}
+figure.article-chart figcaption{font-size:.75rem;color:var(--text-muted);padding:.5rem 1rem;border-top:1px solid var(--border-subtle);font-style:italic;}
 </style>
 <script type="application/ld+json">
 {
@@ -150,7 +155,7 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
   ]
 }
 </script>
-</head>
+</meta></head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-PRQ8SBTV" style="display:none;visibility:hidden" width="0"></iframe></noscript>
@@ -198,12 +203,12 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 </div>
 <div class="prose">
 <h2 id="mission">Our Mission</h2>
-<p>AcreCompass was built because agricultural lending is one of the most underserved categories in personal finance content. Most farm finance information comes from two sources: government agencies — comprehensive but hard to navigate — or lenders themselves, who are biased by definition. Independent, comparison-oriented agricultural finance content barely exists.</p>
-<p>We fill that gap. AcreCompass publishes independent research on farm loans, lender reviews, calculators, and financing guides written for farmers — not for lenders, not for financial professionals, and not for an academic audience. We write the way a knowledgeable friend in agricultural lending would explain something: directly, with the specific numbers and timelines you need to make a decision.</p>
-<p>Our editorial team has backgrounds in agricultural journalism, financial analysis, and farm operations. We don't pretend to know your farm better than you do — but we know the lending landscape, the rate benchmarks, and the program details that help you ask the right questions and avoid the most expensive mistakes.</p>
+<figure class="article-chart"><img alt="Chart of U.S. agricultural lending market showing the role of independent research in helping farmers compare loan options" height="420" loading="lazy" src="/images/chart-state-ag.png" width="800"/><figcaption>AcreCompass covers the full agricultural lending landscape — FSA, Farm Credit, and commercial alternatives.</figcaption></figure><p>AcreCompass was built because agricultural lending is one of the most underserved categories in personal finance content.</p><p>Most farm finance information comes from two sources: government agencies — comprehensive but hard to navigate — or lenders themselves, who are biased by definition. Independent, comparison-oriented agricultural finance content barely exists.</p>
+<p>We fill that gap. AcreCompass publishes independent research on farm loans, lender reviews, calculators, and financing guides written for farmers — not for lenders, not for financial professionals, and not for an academic audience.</p><p>We write the way a knowledgeable friend in agricultural lending would explain something: directly, with the specific numbers and timelines you need to make a decision.</p>
+<p>Our editorial team has backgrounds in agricultural journalism, financial analysis, and farm operations.</p><p>We don't pretend to know your farm better than you do — but we know the lending landscape, the rate benchmarks, and the program details that help you ask the right questions and avoid the most expensive mistakes.</p>
 <div class="callout callout-brand">
 <h4>Why independent matters</h4>
-<p>When you read a lender's own website to understand your financing options, you're reading marketing copy. When you read a government agency guide, you're reading policy documentation that wasn't written for someone in the middle of a planting decision. AcreCompass exists in the space between those two sources — editorial content that is genuinely trying to help you make a better decision, backed by our published methodology and our commitment to including <abbr title="Farm Service Agency">FSA</abbr> options even though we earn no commission from the government.</p>
+<p>When you read a lender's own website to understand your financing options, you're reading marketing copy. When you read a government agency guide, you're reading policy documentation that wasn't written for someone in the middle of a planting decision.</p><p>AcreCompass exists in the space between those two sources — editorial content that is genuinely trying to help you make a better decision, backed by our published methodology and our commitment to including FSA options even though we earn no commission from the government.</p>
 </div>
 <h2 id="what-we-cover">What We Cover</h2>
 <p>AcreCompass publishes guides, lender reviews, calculators, and state-specific resources covering the full range of agricultural financing:</p>
@@ -218,17 +223,17 @@ nav.sidebar-toc a:hover,nav.sidebar-toc a.active{color:var(--text-brand);}
 </ul>
 <p>Our content covers all 50 states and is updated on a rolling basis as rates and programs change. FSA rates are updated within 2 business days of each USDA quarterly publication. Commercial lender rates are audited monthly.</p>
 <h2 id="editorial-standards">Our Editorial Standards</h2>
-<p>Our lender reviews are based on a documented, published scoring methodology — you can read the full methodology at <a href="how-we-rate-lenders.html">How We Rate Farm Lenders</a>. Every review follows a standardized process: data collection from public lender sources, mystery shopping (we contact lenders as prospective borrowers), a 100-point scoring rubric applied by our editorial team, and an editorial review before publication.</p>
-<p><strong>Lenders cannot pay to improve their scores or rankings.</strong> We include USDA FSA programs in every relevant comparison because they offer the best rates available for qualifying borrowers — even though we earn no commission from the government. Affiliate compensation does not determine which lenders we include, exclude, or recommend.</p>
-<p>We disclose all affiliate relationships inline, near the relevant call-to-action. We use a standard disclosure language — "Affiliate link — we may earn a commission" — adjacent to any link where a referral fee may be earned. We do not use "sponsored content" labels for our reviews, because our reviews represent independent editorial judgment, not sponsored content.</p>
-<p>When we make an error, we correct it. Factual corrections are published with a correction note and a revised date. We invite readers and lenders to submit factual corrections through our editorial contact address — and we commit to reviewing and responding to genuine factual challenges within 5 business days.</p>
+<p>Our lender reviews are based on a documented, published scoring methodology — you can read the full methodology at How We Rate Farm Lenders.</p><p>Every review follows a standardized process: data collection from public lender sources, mystery shopping (we contact lenders as prospective borrowers), a 100-point scoring rubric applied by our editorial team, and an editorial review before publication.</p>
+<p>Lenders cannot pay to improve their scores or rankings. We include USDA FSA programs in every relevant comparison because they offer the best rates available for qualifying borrowers — even though we earn no commission from the government.</p><p>Affiliate compensation does not determine which lenders we include, exclude, or recommend.</p>
+<p>We disclose all affiliate relationships inline, near the relevant call-to-action. We use a standard disclosure language — "Affiliate link — we may earn a commission" — adjacent to any link where a referral fee may be earned.</p><p>We do not use "sponsored content" labels for our reviews, because our reviews represent independent editorial judgment, not sponsored content.</p>
+<p>When we make an error, we correct it. Factual corrections are published with a correction note and a revised date.</p><p>We invite readers and lenders to submit factual corrections through our editorial contact address — and we commit to reviewing and responding to genuine factual challenges within 5 business days.</p>
 <div class="callout callout-info">
 <h4>Our position on FSA programs</h4>
-<p>We make a point of including FSA Direct loans, FSA Guaranteed loans, and other USDA programs in all relevant comparisons — even though we have no affiliate relationship with the government and earn nothing from those recommendations. We do this because FSA programs frequently represent the best financial option for qualifying farmers, and excluding them from comparisons would make our content misleading. We believe our readers deserve to see the full market, including options that don't benefit us financially.</p>
+<p>We make a point of including FSA Direct loans, FSA Guaranteed loans, and other USDA programs in all relevant comparisons — even though we have no affiliate relationship with the government and earn nothing from those recommendations.</p><p>We do this because FSA programs frequently represent the best financial option for qualifying farmers, and excluding them from comparisons would make our content misleading. We believe our readers deserve to see the full market, including options that don't benefit us financially.</p>
 </div>
 <h2 id="who-we-are-not">Who We're Not</h2>
 <p>AcreCompass is not a lender, mortgage broker, insurance agent, or financial advisor. We do not originate loans. We do not process loan applications. We do not provide financial advice tailored to your specific situation.</p>
-<p>We are a research and editorial publication. Nothing on this site constitutes a loan offer, investment recommendation, or financial advice. The calculators, rate tables, and financing guides on AcreCompass are educational tools — they are designed to help you understand the landscape and ask better questions of the lenders and advisors who will actually work with your operation.</p>
+<p>We are a research and editorial publication. Nothing on this site constitutes a loan offer, investment recommendation, or financial advice.</p><p>The calculators, rate tables, and financing guides on AcreCompass are educational tools — they are designed to help you understand the landscape and ask better questions of the lenders and advisors who will actually work with your operation.</p>
 <p>If you are facing a specific lending decision, especially a complex one involving tax implications, land purchase, or government program eligibility, we encourage you to work with a professional: a qualified farm CPA, an agricultural lender with local knowledge, or your county FSA Service Center team.</p>
 <h2 id="contact">Contact Us</h2>
 <p>For general editorial inquiries, corrections, or feedback about our content:</p>
