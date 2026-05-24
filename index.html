@@ -18,6 +18,11 @@
 <meta property="og:title" content="Farm Loan Comparison &amp; Agricultural Finance Guides — AcreCompass">
 <meta property="og:description" content="Compare FSA direct loans, Farm Credit, and commercial lenders side-by-side. Independent reviews, current rates, and guides for every type of farm loan. Updated May 2026.">
 <meta property="og:url" content="https://acrecompass.com/">
+<meta property="og:image" content="https://acrecompass.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@acrecompass">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ── Tokens ── */
@@ -156,6 +161,8 @@ p{color:var(--text-secondary);}
 .footer-col a{display:block;font-size:.82rem;color:rgba(250,248,244,.5);margin-bottom:.4rem;transition:color var(--transition-fast);}
 .footer-col a:hover{color:var(--text-invert);}
 .footer-bottom{display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;padding-top:1.5rem;font-size:.75rem;color:rgba(250,248,244,.3);}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
 </style>
 <script type="application/ld+json">
 [
@@ -182,6 +189,26 @@ p{color:var(--text-secondary);}
   }
 ]
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "How to Compare Farm Loans — AcreCompass Guide",
+  "description": "A walkthrough of how to compare FSA direct loans, Farm Credit, and commercial lenders for your agricultural operation.",
+  "thumbnailUrl": "https://acrecompass.com/video-thumb.jpg",
+  "uploadDate": "2026-05-23",
+  "duration": "PT4M30S",
+  "contentUrl": "https://acrecompass.com/how-to-compare-farm-loans",
+  "embedUrl": "https://www.youtube.com/embed/placeholder"
+}
+</script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#2D7D2D">
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -190,7 +217,7 @@ p{color:var(--text-secondary);}
     <!-- End Google Tag Manager (noscript) -->
 
 <!-- Nav -->
-<nav class="nav">
+<nav class="nav" aria-label="Main navigation">
   <div class="nav-logo">
     <svg width="28" height="28" viewBox="0 0 40 40" fill="none"><path d="M20 6 L8 32 L14 32 L20 18 L26 32 L32 32 Z" fill="#2D7D2D"/><path d="M30 10 A14 14 0 0 1 36 20" stroke="#E8860A" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="36" cy="20" r="2.5" fill="#E8860A"/></svg>
     <span class="nav-wordmark">AcreCompass</span>
@@ -204,6 +231,7 @@ p{color:var(--text-secondary);}
   </div>
   <a href="/lenders/" class="nav-cta">Compare Rates →</a>
 </nav>
+<main>
 
 <!-- Hero -->
 <section class="hero">
@@ -219,13 +247,24 @@ p{color:var(--text-secondary);}
       <a href="/calculators/" class="btn btn-ghost-invert">Use our calculator</a>
     </div>
     <div class="hero-stats">
-      <div class="hero-stat"><div class="value">$430B</div><div class="label">U.S. ag lending market (USDA ERS)</div></div>
+      <div class="hero-stat"><div class="value">$430B</div><div class="label">U.S. ag lending market <cite><a href="https://www.ers.usda.gov/topics/farm-economy/farm-sector-income-finances/" style="color:rgba(250,248,244,.45);font-size:.65rem;" rel="noopener" target="_blank">USDA ERS, 2025</a></cite></div></div>
       <div class="hero-stat"><div class="value">6</div><div class="label">Operating · Equipment · Ownership · Beginning · Emergency · Storage</div></div>
       <div class="hero-stat"><div class="value">$600K</div><div class="label">FSA Direct max</div></div>
       <div class="hero-stat"><div class="value">5.85%</div><div class="label">Farm Credit starting rate</div></div>
       <div class="hero-stat"><div class="value">30 yr</div><div class="label">Max term available</div></div>
     </div>
   </div>
+</section>
+
+<section aria-label="Key Takeaways" class="key-takeaways" style="max-width:1120px;margin:2rem auto;padding:0 2rem;">
+  <h2 style="font-size:1.1rem;margin-bottom:.75rem;">Quick Recap</h2>
+  <ul>
+    <li>Compare FSA government loans and commercial lenders side-by-side — rates, terms, and approval speed</li>
+    <li>FSA Direct Loans go up to $600,000; Guaranteed Loans up to $2.24 million for larger operations</li>
+    <li>Use the farm loan calculator to estimate monthly payments before you apply</li>
+    <li>State-specific guides cover local FSA offices, Farm Credit associations, and state ag programs</li>
+    <li>All lender ratings are based on rates, approval time, and ag eligibility — not affiliate commissions</li>
+  </ul>
 </section>
 
 <!-- Feature strip -->
@@ -327,7 +366,7 @@ p{color:var(--text-secondary);}
           <div class="lender-logo">NF</div>
           <div>
             <div class="lender-name">National Funding</div>
-            <div class="lender-type"><span class="badge badge-cta" style="font-size:.62rem;padding:.12rem .4rem">Best for Speed</span></div>
+            <div class="lender-type"><span class="badge badge-cta" style="font-size:.62rem;padding:.12rem .4rem">Fastest funding (1–3 business days)</span></div>
           </div>
         </div>
         <div class="lender-body">
@@ -435,6 +474,23 @@ p{color:var(--text-secondary);}
 </section>
 
 <!-- Related Resources -->
+
+<section aria-label="Common Questions" class="quick-questions" style="max-width:1120px;margin:0 auto;padding:2rem;">
+  <h2 style="font-size:1.375rem;margin-bottom:1.25rem;">Common Questions from Farmers</h2>
+  <dl class="terms" style="background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.5rem 1.75rem;">
+    <dt style="font-weight:700;color:var(--text-primary);margin-top:1rem;">Which lender funds the fastest?</dt>
+    <dd style="color:var(--text-secondary);font-size:.9rem;margin:0.25rem 0 0;">National Funding and Fora Financial typically fund in 1–3 business days. FSA direct loans take 30–60 days due to government processing.</dd>
+    <dt style="font-weight:700;color:var(--text-primary);margin-top:1rem;">What’s the maximum FSA farm loan amount?</dt>
+    <dd style="color:var(--text-secondary);font-size:.9rem;margin:0.25rem 0 0;">FSA Direct Loans cap at $600,000. FSA Guaranteed Loans — where a commercial lender makes the loan and USDA backs it — go up to $2.24 million.</dd>
+    <dt style="font-weight:700;color:var(--text-primary);margin-top:1rem;">Do farm lenders pull my credit?</dt>
+    <dd style="color:var(--text-secondary);font-size:.9rem;margin:0.25rem 0 0;">Most commercial lenders run a soft pull during pre-qualification. A hard inquiry happens only when you submit a full application. FSA uses its own creditworthiness criteria, not a FICO score.</dd>
+    <dt style="font-weight:700;color:var(--text-primary);margin-top:1rem;">Can I get a farm loan with bad credit?</dt>
+    <dd style="color:var(--text-secondary);font-size:.9rem;margin:0.25rem 0 0;">Yes. FSA Beginning Farmer loans and USDA microloans are designed for borrowers who cannot get conventional credit. Lendio also works with lower credit profiles through its 75+ lender marketplace.</dd>
+    <dt style="font-weight:700;color:var(--text-primary);margin-top:1rem;">What’s the difference between an operating loan and a farm ownership loan?</dt>
+    <dd style="color:var(--text-secondary);font-size:.9rem;margin:0.25rem 0 0;">Operating loans cover annual expenses — seeds, fertilizer, labor — and typically run 1–7 years. Ownership loans finance land purchases and run 20–40 years at lower rates.</dd>
+  </dl>
+</section>
+
 <section class="rr">
   <div class="rr-inner">
     <h3>Popular on AcreCompass</h3>
@@ -464,7 +520,8 @@ p{color:var(--text-secondary);}
 </section>
 
 <!-- Footer -->
-<footer class="footer">
+</main>
+<footer class="footer" role="contentinfo" aria-label="Footer navigation">
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
