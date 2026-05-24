@@ -94,11 +94,15 @@
 /state-nebraska                   /state-nebraska.html                   200
 /state-texas                      /state-texas.html                      200
 
-# ── Privacy (no dedicated page — redirect to about) ──
-/privacy                          /about.html                            200
-/privacy/                         /about.html                            200
-/privacy-policy                   /about.html                            200
-/privacy-policy/                  /about.html                            200
+# ── Legal pages ──
+/privacy                          /privacy-policy.html                   200
+/privacy/                         /privacy-policy.html                   200
+/privacy-policy                   /privacy-policy.html                   200
+/privacy-policy/                  /privacy-policy.html                   200
+/terms                            /terms-of-service.html                 200
+/terms/                           /terms-of-service.html                 200
+/terms-of-service                 /terms-of-service.html                 200
+/terms-of-service/                /terms-of-service.html                 200
 
 # ── Non-existent lender reviews → lenders hub ──
 /lenders/american-agcredit-review    /lenders.html                       301
