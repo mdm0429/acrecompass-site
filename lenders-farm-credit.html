@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Farm Credit Services of America Review 2026 — AcreCompass</title>
 <meta name="description" content="Farm Credit Services of America review for 2026. Farmer-owned cooperative offering the lowest long-term farmland rates, operating loans, and equipment financing for qualified borrowers.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="Farm Credit Services of America Review 2026 — AcreCompass">
+<meta property="og:description" content="Farm Credit Services of America review for 2026. Farmer-owned cooperative offering the lowest long-term farmland rates, operating loans, and equipment financing for qualified borrowers.">
+<meta property="og:url" content="https://acrecompass.com/lenders-farm-credit.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -136,6 +141,44 @@ p{color:var(--text-secondary);}
 .footer-col a{display:block;font-size:.82rem;color:rgba(250,248,244,.5);margin-bottom:.4rem;}
 .footer-col a:hover{color:var(--text-invert);}
 .footer-bottom{display:flex;justify-content:space-between;gap:2rem;padding-top:1.5rem;font-size:.75rem;color:rgba(250,248,244,.3);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Pros/Cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr;}}
+.pros-cons .pros,.pros-cons .cons{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.125rem 1.25rem;}
+.pros-cons h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 .625rem;}
+.pros-cons .pros h4{color:#2D7D2D;}
+.pros-cons .cons h4{color:#C53030;}
+.pros-cons ul{list-style:none;padding:0;margin:0;}
+.pros-cons li{position:relative;padding-left:1.25rem;font-size:.84rem;line-height:1.5;color:var(--text-secondary);margin-bottom:.375rem;}
+.pros-cons .pros li::before{content:"+";position:absolute;left:0;font-weight:700;color:#2D7D2D;}
+.pros-cons .cons li::before{content:"\2013";position:absolute;left:0;font-weight:700;color:#C53030;}
+/* Who For */
+.who-for{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.who-for h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-primary);margin:0 0 .5rem;}
+.who-for p{font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin:0 0 .75rem;}
+.who-for p:last-child{margin-bottom:0;}
+.who-for strong{color:var(--text-primary);}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -273,6 +316,35 @@ p{color:var(--text-secondary);}
 
     <h2 id="what-makes-different">What Makes Farm Credit Different</h2>
     <p>Farm Credit Services of America is not a bank. It is a farmer-owned lending cooperative — one of the Farm Credit System institutions created by Congress in 1916 specifically to provide reliable credit to American agriculture. Unlike a bank that happens to make farm loans, FCSA exists solely to serve agricultural borrowers.</p>
+
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Lowest long-term rates reviewed — ownership loans from 5.85%</li>
+          <li>Patronage dividends return 0.5–1.0% of interest annually to borrower-members</li>
+          <li>Agriculture-only focus since 1916 — deepest sector expertise of any lender</li>
+          <li>Full product range: land, operating, equipment, and crop insurance in one relationship</li>
+          <li>Cooperative ownership means borrowers have a voice in governance</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Higher credit threshold — approximately 680+ FICO required</li>
+          <li>Slower application process (2–4 weeks for new borrowers) compared to online lenders</li>
+          <li>Service territory varies by regional association — not available everywhere under one entity</li>
+          <li>Requires in-person or phone relationship with a loan officer</li>
+          <li>Not accessible to newer operations without established financials</li>
+        </ul>
+      </div>
+    </div>
+    <div class="who-for">
+      <h4>Who This Is For</h4>
+      <p>Established farm operations with 680+ credit that want the lowest possible long-term rate on land, plus the benefit of patronage dividend (a rebate Farm Credit associations pay back to borrower-members from annual profits)s reducing effective cost. Ideal for multi-generation operations seeking a long-term lending relationship.</p>
+      <h4>Who Should Look Elsewhere</h4>
+      <p>Beginning farmers with thin credit histories should start with FSA Direct (no minimum score, beginning farmer priority). Operations needing fast capital should use National Funding or Fora Financial — Farm Credit's process is measured in weeks, not days.</p>
+    </div>
     <p>The cooperative model has meaningful practical implications for borrowers. When FCSA earns a profit, it returns a portion to borrowers as <strong>patronage dividends</strong> — effectively reducing your net interest cost. Farmers who borrow consistently from FCSA and participate in the patronage program often see their effective interest rate 0.5–1.0 percentage points lower than the stated rate after dividends are returned.</p>
     <p>FCSA serves Iowa, Nebraska, South Dakota, and Wyoming. If you're in another region, look for your local Farm Credit association — Southern AgCredit serves the Southeast, Farm Credit Mid-America serves Kentucky and Tennessee, and similar institutions cover most of the country.</p>
 
@@ -354,7 +426,10 @@ p{color:var(--text-secondary);}
       <div class="compare-row"><div class="compare-lender"><a href="/lenders/national-funding/">National Funding</a></div><div class="compare-cell">7–24%</div><div class="compare-cell">$500K</div><div class="compare-cell">24 hrs</div><a href="https://www.nationalfunding.com/small-business-loans/" target="_blank" rel="noopener sponsored" class="compare-cta">Apply →</a></div>
     </div>
 
-  </article>
+  
+    <a href="/calculators/farm-loan" class="calc-ref"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Use our farm loan calculator to estimate monthly payments</a>
+
+    </article>
 
   <aside class="review-sidebar">
     <div class="sidebar-cta-box">
@@ -390,6 +465,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>AcreCompass score: 4.8/5 — highest overall, with top marks in products (5.0) and service (5.0)</li>
+        <li>Rates: ownership 5.85–9.25% (up to 30yr), operating 6.50–8.50% (up to 7yr), equipment 5.90–9.00% (up to 10yr)</li>
+        <li>Cooperative structure since 1916 — patronage dividends return 0.5–1.0% of interest to borrower-members each year</li>
+        <li>Minimum credit score approximately 680; $30 billion+ portfolio; not a government program</li>
+        <li>Best for established operations that can benefit from long-term relationships and patronage rebates</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="/lenders/" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><div><div class="rr-label">Comparison</div><div class="rr-title">Best Agricultural Lenders 2026</div><div class="rr-desc">All lenders ranked side-by-side.</div></div></a>
       <a href="/lenders/agdirect/" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><div><div class="rr-label">Lender Review</div><div class="rr-title">AgDirect Review 2026</div><div class="rr-desc">Farm Credit's equipment-only arm — faster process.</div></div></a>

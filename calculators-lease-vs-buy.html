@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Equipment Lease vs. Buy Calculator for Farmers 2026 — AcreCompass</title>
 <meta name="description" content="Should you lease or buy farm equipment? Compare total cost of ownership, tax benefits, and cash flow impact with our free lease vs. buy calculator for farmers.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="Equipment Lease vs. Buy Calculator for Farmers 2026 — AcreCompass">
+<meta property="og:description" content="Should you lease or buy farm equipment? Compare total cost of ownership, tax benefits, and cash flow impact with our free lease vs. buy calculator for farmers.">
+<meta property="og:url" content="https://acrecompass.com/calculators-lease-vs-buy.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--info-subtle:#D8E8F5;--info:#2B6CAD;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-2xl:1.25rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -127,6 +132,26 @@ p{color:var(--text-secondary);}
 .footer-col a{display:block;font-size:.82rem;color:rgba(250,248,244,.5);margin-bottom:.4rem;}
 .footer-col a:hover{color:var(--text-invert);}
 .footer-bottom{display:flex;justify-content:space-between;gap:2rem;padding-top:1.5rem;font-size:.75rem;color:rgba(250,248,244,.3);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -392,6 +417,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>Compare total cost of buying (loan payments + depreciation) vs. leasing (lease payments + residual) over your planning horizon</li>
+        <li>Buying usually wins when you plan to use equipment for 10+ years and can lock in rates below 7%</li>
+        <li>Leasing makes sense for technology that upgrades every 3–5 years or for short-term seasonal needs</li>
+        <li>Section 179 applies to purchased equipment — it can shift the buy-vs-lease breakeven point significantly</li>
+        <li>The calculator shows year-by-year cumulative costs so you can see exactly when buying becomes cheaper than leasing</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="calculators-farm-loan.html" class="rr-card"><div class="rr-icon cta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--cta)" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><div><div class="rr-label">Calculator</div><div class="rr-title">Farm Loan Payment Calculator</div><div class="rr-desc">Estimate monthly payments for any loan amount and term.</div></div></a>
       <a href="#" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Guide</div><div class="rr-title">Equipment Financing Guide 2026</div><div class="rr-desc">Tractors, combines, irrigation — complete guide.</div></div></a>

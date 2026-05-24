@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>USDA Farm Storage Facility Loans: Rates, Limits &amp; How to Apply — AcreCompass</title>
 <meta name="description" content="USDA Farm Storage Facility Loan (FSFL) program guide. Loans from $50,000 to $500,000 at low fixed rates for grain bins, cold storage, and commodity storage. Rates, terms, and how to apply.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="USDA Farm Storage Facility Loans: Rates, Limits &amp; How to Apply — AcreCompass">
+<meta property="og:description" content="USDA Farm Storage Facility Loan (FSFL) program guide. Loans from $50,000 to $500,000 at low fixed rates for grain bins, cold storage, and commodity storage. Rates, terms, and how to apply.">
+<meta property="og:url" content="https://acrecompass.com/usda-storage-facility-loans.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--info-hover:#1C4F82;--info-dark:#0C2438;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08),0 1px 2px -1px rgba(26,18,8,.05);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--shadow-lg:0 10px 15px -3px rgba(26,18,8,.07),0 4px 6px -4px rgba(26,18,8,.04);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -136,6 +141,44 @@ p{color:var(--text-secondary);}
 .sources ul{padding-left:1.25rem;margin:0;}
 .sources li{font-size:.78rem;color:var(--text-muted);margin-bottom:.35rem;}
 .sources a{color:var(--info);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Pros/Cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr;}}
+.pros-cons .pros,.pros-cons .cons{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.125rem 1.25rem;}
+.pros-cons h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 .625rem;}
+.pros-cons .pros h4{color:#2D7D2D;}
+.pros-cons .cons h4{color:#C53030;}
+.pros-cons ul{list-style:none;padding:0;margin:0;}
+.pros-cons li{position:relative;padding-left:1.25rem;font-size:.84rem;line-height:1.5;color:var(--text-secondary);margin-bottom:.375rem;}
+.pros-cons .pros li::before{content:"+";position:absolute;left:0;font-weight:700;color:#2D7D2D;}
+.pros-cons .cons li::before{content:"\2013";position:absolute;left:0;font-weight:700;color:#C53030;}
+/* Who For */
+.who-for{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.who-for h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-primary);margin:0 0 .5rem;}
+.who-for p{font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin:0 0 .75rem;}
+.who-for p:last-child{margin-bottom:0;}
+.who-for strong{color:var(--text-primary);}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -312,12 +355,41 @@ p{color:var(--text-secondary);}
     <div class="key-takeaways">
       <h4>Key Takeaways</h4>
       <ul>
-        <li>FSFL rates are tied to the <strong>CCC (Commodity Credit Corporation) borrowing rate</strong> — typically the lowest rate of any farm loan program</li>
+        <li>FSFL (Farm Storage Facility Loan) rates are tied to the <strong>CCC (Commodity Credit Corporation) borrowing rate</strong> — typically the lowest rate of any farm loan program</li>
         <li>You do <strong>not need to be unable to obtain commercial credit</strong> — any producer growing eligible commodities can apply</li>
         <li><strong>15% down payment</strong> is required; the remaining 85% is financed by USDA</li>
         <li>Storage must be <strong>located on your farm</strong> — commercial off-site storage does not qualify</li>
         <li>Approved commodities include <strong>corn, soybeans, wheat, sorghum, cotton, peanuts, pulse crops, hay, and more</strong></li>
       </ul>
+    </div>
+
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Rate of approximately 2.50% (CCC rate) — the lowest fixed-asset financing available to farmers</li>
+          <li>No credit-elsewhere test required — simpler qualification than other FSA (Farm Service Agency) programs</li>
+          <li>The facility itself serves as collateral — no additional real estate lien</li>
+          <li>Saves $30K–$50K vs. commercial financing on a $200K structure over 10 years</li>
+          <li>12-year terms for permanent structures provide manageable monthly payments</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>15% down payment required — $30K on a $200K grain bin</li>
+          <li>On-farm structures only — rented or off-site storage does not qualify</li>
+          <li>Maximum $500K per borrower caps the program for large operations</li>
+          <li>Minimum loan is $50K — not suitable for small portable storage</li>
+          <li>Approval takes 3–4 weeks even though the application is simpler than other FSA programs</li>
+        </ul>
+      </div>
+    </div>
+    <div class="who-for">
+      <h4>Who This Is For</h4>
+      <p>Grain, hay, and specialty crop farmers who want to store production on-farm to market at higher prices. Ideal for operations building grain bins, cold storage, or hay barns that cost $50K–$500K.</p>
+      <h4>Who Should Look Elsewhere</h4>
+      <p>Farmers who already have adequate storage or sell at harvest should not take on storage facility debt. Operations needing more than $500K in storage should combine FSFL with commercial financing.</p>
     </div>
 
     <h2 id="what-is-fsfl">What Is the FSFL Program?</h2>
@@ -440,6 +512,9 @@ p{color:var(--text-secondary);}
       <p style="font-size:.72rem;color:var(--text-muted);margin-top:.5rem;font-style:italic;">AcreCompass has no affiliate relationship with USDA.</p>
     </div>
 
+    
+    <aside class="key-stat"><strong>Savings example:</strong> A $200,000 grain bin financed through FSFL at ~2.50% for 12 years costs approximately $30,000–$50,000 less in total interest compared to a commercial equipment loan at 7–8%. The facility itself serves as collateral.</aside>
+
     <div class="faq" id="faq">
       <h2>Frequently Asked Questions</h2>
 
@@ -518,6 +593,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>Farm Storage Facility Loans (FSFL): $50K–$500K at approximately 2.50% (CCC rate, April 2026)</li>
+        <li>Terms: 12 years for permanent structures, 7 years for portable equipment; 15% down payment required</li>
+        <li>No credit-elsewhere test — the facility itself serves as collateral</li>
+        <li>Eligible structures include grain bins, silos, cold storage, hay barns, and handling equipment</li>
+        <li>Typical savings: $30K–$50K compared to commercial financing on a $200K bin over 10 years</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="/pages/usda-fsa-loans.html" class="rr-card"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Complete Guide</div><div class="rr-title">USDA FSA Loans Complete Guide</div><div class="rr-desc">All FSA loan types, rates, and limits.</div></div></a>
       <a href="/pages/usda-how-to-apply.html" class="rr-card"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg></div><div><div class="rr-label">How-To</div><div class="rr-title">How to Apply for a USDA Loan</div><div class="rr-desc">7-step application guide with document checklist.</div></div></a>

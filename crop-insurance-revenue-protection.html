@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Revenue Protection vs. Yield Protection Crop Insurance: Key Differences — AcreCompass</title>
 <meta name="description" content="Revenue Protection vs. Yield Protection crop insurance compared. RP covers both price declines and yield loss while YP covers yield only. Costs, coverage, and which to choose.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="Revenue Protection vs. Yield Protection Crop Insurance: Key Differences — AcreCompass">
+<meta property="og:description" content="Revenue Protection vs. Yield Protection crop insurance compared. RP covers both price declines and yield loss while YP covers yield only. Costs, coverage, and which to choose.">
+<meta property="og:url" content="https://acrecompass.com/crop-insurance-revenue-protection.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--info-hover:#1C4F82;--info-dark:#0C2438;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08),0 1px 2px -1px rgba(26,18,8,.05);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--shadow-lg:0 10px 15px -3px rgba(26,18,8,.07),0 4px 6px -4px rgba(26,18,8,.04);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -141,6 +146,44 @@ p{color:var(--text-secondary);}
 .sources ul{padding-left:1.25rem;margin:0;}
 .sources li{font-size:.78rem;color:var(--text-muted);margin-bottom:.35rem;}
 .sources a{color:var(--info);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Pros/Cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr;}}
+.pros-cons .pros,.pros-cons .cons{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.125rem 1.25rem;}
+.pros-cons h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 .625rem;}
+.pros-cons .pros h4{color:#2D7D2D;}
+.pros-cons .cons h4{color:#C53030;}
+.pros-cons ul{list-style:none;padding:0;margin:0;}
+.pros-cons li{position:relative;padding-left:1.25rem;font-size:.84rem;line-height:1.5;color:var(--text-secondary);margin-bottom:.375rem;}
+.pros-cons .pros li::before{content:"+";position:absolute;left:0;font-weight:700;color:#2D7D2D;}
+.pros-cons .cons li::before{content:"\2013";position:absolute;left:0;font-weight:700;color:#C53030;}
+/* Who For */
+.who-for{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.who-for h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-primary);margin:0 0 .5rem;}
+.who-for p{font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin:0 0 .75rem;}
+.who-for p:last-child{margin-bottom:0;}
+.who-for strong{color:var(--text-primary);}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -323,6 +366,35 @@ p{color:var(--text-secondary);}
       </ul>
     </div>
 
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Covers both price drops and yield losses — pays on whichever causes more revenue loss</li>
+          <li>Uses the higher of projected or harvest price, so your guarantee can increase after planting</li>
+          <li>Holds approximately 75% market share — the most popular crop insurance policy for a reason</li>
+          <li>Premium subsidy of 38–55% at the most common coverage levels (75–85%)</li>
+          <li>Paired with enterprise units, RP becomes the most cost-effective comprehensive coverage</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Higher premiums than Yield Protection or RP-HPE at every coverage level</li>
+          <li>Projected price is set from February futures — if prices are low in February, your guarantee starts lower</li>
+          <li>Does not cover quality losses or prevented planting at the same rate as the main policy</li>
+          <li>APH (Actual Production History) yield history limits your coverage — low-yield years permanently reduce your baseline</li>
+          <li>Coverage caps at 85% — you always carry at least a 15% deductible</li>
+        </ul>
+      </div>
+    </div>
+    <div class="who-for">
+      <h4>Who This Is For</h4>
+      <p>Row crop farmers growing corn, soybeans, wheat, or cotton who want the broadest revenue protection available. RP is the right choice when price risk and yield risk both matter — which is most years for most operations.</p>
+      <h4>Who Should Look Elsewhere</h4>
+      <p>Farmers who are confident prices will hold or rise should consider RP-HPE (Harvest Price Exclusion) for lower premiums. Diversified farms with 3+ commodities should evaluate WFRP (Whole-Farm Revenue Protection) instead of individual RP policies.</p>
+    </div>
+
     <h2 id="comparison">The Core Difference: What Happens When Prices Drop</h2>
     <p>The fundamental distinction between RP and YP only matters in one scenario: when commodity prices at harvest are lower than they were at planting. In all other scenarios — good yields and prices, or yield loss with stable prices — both policies pay very similarly.</p>
     <p>Here's the critical insight: <strong>RP uses the higher of the projected price or the harvest price</strong> to calculate your indemnity. YP uses only the projected price. If corn falls from $5.00 at planting to $4.00 at harvest, RP calculates your guarantee using $5.00. YP also uses $5.00 in its revenue guarantee calculation — but if you have a yield shortfall, the loss is measured using the lower $4.00 harvest price, which means a smaller indemnity check.</p>
@@ -461,9 +533,12 @@ p{color:var(--text-secondary);}
     <div class="usda-cta">
       <h4>Talk to a Crop Insurance Agent About RP vs. YP</h4>
       <p>The right policy type depends on your specific crop, county, APH, and marketing strategy. A USDA-approved agent can run actual premium quotes for both options and help you decide.</p>
-      <a href="https://www.rma.usda.gov/" class="btn-info-lg" target="_blank" rel="noopener">Find an Agent at RMA →</a>
+      <a href="https://www.rma.usda.gov/" class="btn-info-lg" target="_blank" rel="noopener">Find an Agent at RMA (Risk Management Agency) →</a>
       <p style="font-size:.72rem;color:var(--text-muted);margin-top:.5rem;font-style:italic;">AcreCompass does not sell crop insurance and earns no commission on policy purchases.</p>
     </div>
+
+    
+    <aside class="key-stat"><strong>RP market share:</strong> Revenue Protection holds approximately 75% of all federal crop insurance policies by premium volume. For corn and soybeans specifically, RP covers roughly 65% of insured acres. Source: USDA RMA Summary of Business.</aside>
 
     <div class="faq" id="faq">
       <h2>Frequently Asked Questions</h2>
@@ -482,7 +557,7 @@ p{color:var(--text-secondary);}
       </div>
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">Does my lender care which policy I choose? <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
-        <div class="faq-a">Lenders typically specify a minimum coverage level (often 65–75%) but rarely specify RP vs. YP. FSA farm loans may require "an appropriate level of crop insurance" without specifying the type. However, some agricultural lenders strongly encourage RP because the revenue protection reduces their collateral risk. Check your loan agreement for specific requirements and discuss with your lender if you're considering YP.</div>
+        <div class="faq-a">Lenders typically specify a minimum coverage level (often 65–75%) but rarely specify RP vs. YP. FSA (Farm Service Agency) farm loans may require "an appropriate level of crop insurance" without specifying the type. However, some agricultural lenders strongly encourage RP because the revenue protection reduces their collateral risk. Check your loan agreement for specific requirements and discuss with your lender if you're considering YP.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">What if I have a forward contract at a higher price — does RP still make sense? <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
@@ -559,6 +634,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>Revenue Protection (RP) holds roughly 75% market share among federal crop insurance policies</li>
+        <li>RP uses the higher of the projected price or harvest price — protecting you even when prices fall after planting</li>
+        <li>Example: 500 acres of corn with a price drop from $5.00 to $4.00 and a yield shortfall — RP pays     25,000 vs. $50,000 for Yield Protection</li>
+        <li>RP-HPE (Harvest Price Exclusion) costs less but does not increase your guarantee if harvest prices rise</li>
+        <li>Projected prices are set from February futures averages — locked in before planting decisions</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="/pages/crop-insurance-how-it-works.html" class="rr-card"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Guide</div><div class="rr-title">How Crop Insurance Works</div><div class="rr-desc">APH, premiums, claims, and sales closing dates.</div></div></a>
       <a href="https://www.rma.usda.gov/" class="rr-card" target="_blank" rel="noopener"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 1.64 12.54M4.93 4.93A10 10 0 0 0 3.29 17.47"/></svg></div><div><div class="rr-label">Official Resource</div><div class="rr-title">Find an Agent at RMA.USDA.gov</div><div class="rr-desc">Get premium quotes from an approved agent.</div></div></a>

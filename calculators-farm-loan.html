@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Farm Loan Payment Calculator 2026 — AcreCompass</title>
 <meta name="description" content="Estimate your monthly farm loan payment with our free calculator. Enter loan amount, interest rate, and term to compare FSA, Farm Credit, and commercial lender scenarios.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="Farm Loan Payment Calculator 2026 — AcreCompass">
+<meta property="og:description" content="Estimate your monthly farm loan payment with our free calculator. Enter loan amount, interest rate, and term to compare FSA, Farm Credit, and commercial lender scenarios.">
+<meta property="og:url" content="https://acrecompass.com/calculators-farm-loan.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--info-subtle:#D8E8F5;--info:#2B6CAD;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-2xl:1.25rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--shadow-lg:0 10px 15px -3px rgba(26,18,8,.07);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -127,6 +132,26 @@ p{color:var(--text-secondary);}
 .footer-col a{display:block;font-size:.82rem;color:rgba(250,248,244,.5);margin-bottom:.4rem;}
 .footer-col a:hover{color:var(--text-invert);}
 .footer-bottom{display:flex;justify-content:space-between;gap:2rem;padding-top:1.5rem;font-size:.75rem;color:rgba(250,248,244,.3);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -373,6 +398,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>Enter your loan amount, interest rate, and term to estimate monthly payments, total interest, and total cost</li>
+        <li>Benchmark rates: FSA Direct from 5.50%, Farm Credit from 5.85%, commercial lenders 7%+</li>
+        <li>A 1% rate difference on a $500,000 loan over 20 years adds approximately $60,000 in total interest</li>
+        <li>Use the amortization schedule to see how each payment splits between principal and interest over the life of the loan</li>
+        <li>Compare FSA vs. commercial scenarios side by side to see whether the longer FSA approval timeline is worth the rate savings</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="#" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Guide</div><div class="rr-title">Farm Loans Guide 2026</div><div class="rr-desc">How operating, land, and equipment loans work.</div></div></a>
       <a href="calculators-lease-vs-buy.html" class="rr-card"><div class="rr-icon cta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--cta)" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><div><div class="rr-label">Calculator</div><div class="rr-title">Lease vs. Buy Calculator</div><div class="rr-desc">True 5-year cost comparison for farm equipment.</div></div></a>

@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How Crop Insurance Works: A Plain-English Guide for Farmers 2026 — AcreCompass</title>
 <meta name="description" content="How federal crop insurance works in plain English. Coverage levels, premium subsidies, the claims process, and enrollment deadlines for Revenue Protection and Yield Protection policies.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="How Crop Insurance Works: A Plain-English Guide for Farmers 2026 — AcreCompass">
+<meta property="og:description" content="How federal crop insurance works in plain English. Coverage levels, premium subsidies, the claims process, and enrollment deadlines for Revenue Protection and Yield Protection policies.">
+<meta property="og:url" content="https://acrecompass.com/crop-insurance-how-it-works.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--info-hover:#1C4F82;--info-dark:#0C2438;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08),0 1px 2px -1px rgba(26,18,8,.05);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--shadow-lg:0 10px 15px -3px rgba(26,18,8,.07),0 4px 6px -4px rgba(26,18,8,.04);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -122,6 +127,44 @@ p{color:var(--text-secondary);}
 .sources li{font-size:.78rem;color:var(--text-muted);margin-bottom:.35rem;}
 .sources a{color:var(--info);}
 .subsidy-note{font-size:.72rem;color:var(--text-muted);margin-top:-.5rem;font-style:italic;margin-bottom:1rem;}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Pros/Cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr;}}
+.pros-cons .pros,.pros-cons .cons{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.125rem 1.25rem;}
+.pros-cons h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 .625rem;}
+.pros-cons .pros h4{color:#2D7D2D;}
+.pros-cons .cons h4{color:#C53030;}
+.pros-cons ul{list-style:none;padding:0;margin:0;}
+.pros-cons li{position:relative;padding-left:1.25rem;font-size:.84rem;line-height:1.5;color:var(--text-secondary);margin-bottom:.375rem;}
+.pros-cons .pros li::before{content:"+";position:absolute;left:0;font-weight:700;color:#2D7D2D;}
+.pros-cons .cons li::before{content:"\2013";position:absolute;left:0;font-weight:700;color:#C53030;}
+/* Who For */
+.who-for{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.who-for h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-primary);margin:0 0 .5rem;}
+.who-for p{font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin:0 0 .75rem;}
+.who-for p:last-child{margin-bottom:0;}
+.who-for strong{color:var(--text-primary);}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -320,8 +363,48 @@ p{color:var(--text-secondary);}
       </ul>
     </div>
 
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>USDA subsidizes 38–67% of your premium — the federal government pays the majority of the cost</li>
+          <li>Covers 100+ crops with coverage levels from 50% to 85%</li>
+          <li>490 million acres covered in 2024 — the backbone of U.S. agricultural risk management</li>
+          <li>Revenue Protection policies cover both price drops and yield losses simultaneously</li>
+          <li>No credit check or financial qualification required — any farmer can buy it</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Sales closing deadlines are strict — miss the date and you cannot buy coverage that crop year</li>
+          <li>Must be purchased through a private crop insurance agent (not available online)</li>
+          <li>Higher coverage levels (80–85%) are expensive even with subsidies</li>
+          <li>Claim payouts take 45–75 days — not instant cash after a loss</li>
+          <li>APH-based coverage can be reduced by years of poor yields, creating a downward spiral</li>
+        </ul>
+      </div>
+    </div>
+    <div class="who-for">
+      <h4>Who This Is For</h4>
+      <p>Every farmer growing insurable crops. Federal crop insurance is the foundation of agricultural risk management — most lenders require it as a condition of financing, and the USDA subsidy makes it the cheapest catastrophic protection available.</p>
+      <h4>Who Should Look Elsewhere</h4>
+      <p>Highly diversified farms growing 3+ commodities may get better value from WFRP (Whole-Farm Revenue Protection) than from individual crop policies. Livestock-only operations should look at LRP and LGM policies instead.</p>
+    </div>
+
     <h2 id="two-types">The Two Main Types of Crop Insurance</h2>
     <p>The federal crop insurance program offers dozens of policy types, but the vast majority of acres are insured under two basic structures: Yield Protection and Revenue Protection.</p>
+
+    <dl class="terms">
+      <dt>Revenue Protection (RP)</dt>
+      <dd>Crop insurance that pays when your per-acre revenue (yield x price) falls below your guarantee. Uses the higher of projected or harvest price.</dd>
+      <dt>Yield Protection (YP)</dt>
+      <dd>Crop insurance that pays only when your actual yield falls below your APH guarantee. Does not respond to price changes.</dd>
+      <dt>Actual Production History (APH)</dt>
+      <dd>Your farm's 4-to-10-year yield average, used as the basis for your crop insurance guarantee. Higher APH = higher coverage.</dd>
+      <dt>Sales Closing Date</dt>
+      <dd>The deadline by which you must purchase or change your crop insurance policy for a given crop year. Missing it means no coverage.</dd>
+    </dl>
 
     <table class="compare-table">
       <thead>
@@ -343,7 +426,7 @@ p{color:var(--text-secondary);}
     <p>Revenue Protection also has a variant: <strong>RP with Harvest Price Exclusion (RP-HPE)</strong>. This version uses only the projected price for indemnity calculations (like YP) but still covers revenue shortfalls from yield loss. It costs less than full RP and more than YP — a middle-ground option. See our <a href="/pages/crop-insurance-revenue-protection.html" style="color:var(--info);">RP vs. YP comparison guide</a> for a full breakdown.</p>
 
     <h2 id="premiums">How Premiums Are Calculated</h2>
-    <p>Your crop insurance premium is set by RMA's actuarial tables and based on four factors:</p>
+    <p>Your crop insurance premium is set by RMA (Risk Management Agency)'s actuarial tables and based on four factors:</p>
     <ul>
       <li><strong>Coverage level</strong> — from 50% to 85% of your APH yield guarantee (higher coverage = higher premium)</li>
       <li><strong>Actuarial rate</strong> — RMA's calculated loss rate for your crop type and county</li>
@@ -429,11 +512,14 @@ p{color:var(--text-secondary);}
       </div>
     </div>
 
+    
+    <aside class="key-stat"><strong>2024 crop year:</strong> Federal crop insurance covered 490 million acres with $117 billion in total liability across more than 100 crops. USDA premium subsidies ranged from 38% to 67% depending on coverage level. Source: USDA Risk Management Agency.</aside>
+
     <div class="faq" id="faq">
       <h2>Frequently Asked Questions</h2>
 
       <div class="faq-item open">
-        <div class="faq-q" onclick="toggleFaq(this)">Is crop insurance required to get an FSA loan? <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-q" onclick="toggleFaq(this)">Is crop insurance required to get an FSA (Farm Service Agency) loan? <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
         <div class="faq-a">For FSA Direct and Guaranteed loans, crop insurance is generally required as a condition of the loan when the crop serves as security for the loan. FSA will specify the required coverage level in your loan agreement. In most cases, FSA requires at least 65–70% coverage on the crop being financed.</div>
       </div>
       <div class="faq-item">
@@ -526,6 +612,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>Federal crop insurance covered 490 million acres with     17 billion in liability in 2024</li>
+        <li>Coverage levels range from 50% to 85% — higher coverage means higher premiums but lower deductibles</li>
+        <li>USDA premium subsidies: 67% at 50% coverage, 59% at 65%, 55% at 70%, 48% at 75%, 44% at 80%, 38% at 85%</li>
+        <li>Sales closing for corn and soybeans in the Corn Belt is March 15; winter wheat is September 30</li>
+        <li>Your APH (Actual Production History) — a 4–10 year yield average — determines your coverage guarantee</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="/pages/crop-insurance-revenue-protection.html" class="rr-card"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Comparison</div><div class="rr-title">Revenue Protection vs. Yield Protection</div><div class="rr-desc">Which policy type is right for your operation.</div></div></a>
       <a href="https://www.rma.usda.gov/" class="rr-card" target="_blank" rel="noopener"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 1.64 12.54M4.93 4.93A10 10 0 0 0 3.29 17.47"/></svg></div><div><div class="rr-label">Official Resource</div><div class="rr-title">Find an Agent at RMA.USDA.gov</div><div class="rr-desc">USDA-approved crop insurance agent search.</div></div></a>

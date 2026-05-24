@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>USDA FSA Loans: Complete Guide for Farmers 2026 — AcreCompass</title>
 <meta name="description" content="Complete guide to USDA FSA farm loans for 2026. Operating, ownership, and microloans at below-market rates. Eligibility requirements, current rates, loan limits, and how to apply.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="USDA FSA Loans: Complete Guide for Farmers 2026 — AcreCompass">
+<meta property="og:description" content="Complete guide to USDA FSA farm loans for 2026. Operating, ownership, and microloans at below-market rates. Eligibility requirements, current rates, loan limits, and how to apply.">
+<meta property="og:url" content="https://acrecompass.com/usda-fsa-loans.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--info-hover:#1C4F82;--info-dark:#0C2438;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08),0 1px 2px -1px rgba(26,18,8,.05);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--shadow-lg:0 10px 15px -3px rgba(26,18,8,.07),0 4px 6px -4px rgba(26,18,8,.04);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -132,6 +137,44 @@ p{color:var(--text-secondary);}
 .sources ul{padding-left:1.25rem;margin:0;}
 .sources li{font-size:.78rem;color:var(--text-muted);margin-bottom:.35rem;}
 .sources a{color:var(--info);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Pros/Cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr;}}
+.pros-cons .pros,.pros-cons .cons{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.125rem 1.25rem;}
+.pros-cons h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 .625rem;}
+.pros-cons .pros h4{color:#2D7D2D;}
+.pros-cons .cons h4{color:#C53030;}
+.pros-cons ul{list-style:none;padding:0;margin:0;}
+.pros-cons li{position:relative;padding-left:1.25rem;font-size:.84rem;line-height:1.5;color:var(--text-secondary);margin-bottom:.375rem;}
+.pros-cons .pros li::before{content:"+";position:absolute;left:0;font-weight:700;color:#2D7D2D;}
+.pros-cons .cons li::before{content:"\2013";position:absolute;left:0;font-weight:700;color:#C53030;}
+/* Who For */
+.who-for{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.who-for h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-primary);margin:0 0 .5rem;}
+.who-for p{font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin:0 0 .75rem;}
+.who-for p:last-child{margin-bottom:0;}
+.who-for strong{color:var(--text-primary);}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -330,8 +373,48 @@ p{color:var(--text-secondary);}
       </ul>
     </div>
 
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Lowest farm loan rates in the U.S. — set by Treasury, not by market negotiation</li>
+          <li>Fixed rate for life with no prepayment penalties on any FSA loan</li>
+          <li>Beginning farmer priority processing and dedicated funding set-asides</li>
+          <li>No minimum credit score — FSA evaluates full financial picture</li>
+          <li>$5.8 billion issued in FY2024 to 115,000+ farmers nationwide</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Direct loans require you to prove inability to get credit elsewhere</li>
+          <li>Processing takes 30–60 days — longer than any commercial lender</li>
+          <li>Loan caps ($600K ownership, $400K operating) may be insufficient for large operations</li>
+          <li>Requires in-person appointment at your local FSA Service Center</li>
+          <li>Extensive documentation: 3 years of tax returns, balance sheet, cash flow projection, farm business plan</li>
+        </ul>
+      </div>
+    </div>
+    <div class="who-for">
+      <h4>Who This Is For</h4>
+      <p>Farmers who want the absolute lowest rate available and are willing to invest 30–60 days in the application process. Especially valuable for beginning farmers, farmers turned down by commercial lenders, and operations that benefit from long-term fixed rates.</p>
+      <h4>Who Should Look Elsewhere</h4>
+      <p>Large operations needing more than $600K should use FSA Guaranteed loans (up to $2.24M through a bank). Farmers who need capital within 2 weeks should apply to commercial lenders while their FSA application processes.</p>
+    </div>
+
     <h2 id="what-is-fsa">What Is the USDA Farm Service Agency?</h2>
     <p>The Farm Service Agency (FSA) is a branch of the U.S. Department of Agriculture that administers farm loan programs, disaster assistance, and commodity price support for American farmers and ranchers. FSA operates through a network of more than 2,100 county service centers across the country.</p>
+
+    <dl class="terms">
+      <dt>FSA Direct Loan</dt>
+      <dd>A loan made directly by the Farm Service Agency to the borrower, with no commercial bank involved. Maximum $600,000 for ownership, $400,000 for operating.</dd>
+      <dt>FSA Guaranteed Loan</dt>
+      <dd>A loan made by a commercial lender with up to 95% of the principal guaranteed by FSA against loss. Maximum $2,236,000.</dd>
+      <dt>FSA Microloan</dt>
+      <dd>A simplified Direct loan up to $50,000 with reduced documentation requirements. Same rate as standard operating loans.</dd>
+      <dt>Credit-Elsewhere Test</dt>
+      <dd>The FSA requirement that Direct loan applicants must demonstrate they cannot obtain credit from a commercial lender on reasonable terms.</dd>
+    </dl>
     <p>In fiscal year 2024, FSA made approximately $5.8 billion in farm loans to more than 115,000 farmers and ranchers — making it one of the largest agricultural lenders in the United States. FSA is not a lender of last resort; it is designed to serve farmers who are unable to obtain credit from commercial sources on reasonable terms, as well as beginning and underserved farmers.</p>
 
     <div class="callout callout-info">
@@ -469,6 +552,12 @@ p{color:var(--text-secondary);}
     </div>
 
     <!-- FAQ -->
+    
+    <aside class="key-stat"><strong>FY2024:</strong> FSA issued approximately $5.8 billion in farm loans to more than 115,000 farmers and ranchers, making it one of the largest agricultural lenders in the United States. Source: USDA Farm Service Agency.</aside>
+
+    
+    <a href="/calculators/farm-loan" class="calc-ref"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Use our farm loan calculator to estimate monthly payments</a>
+
     <div class="faq" id="faq">
       <h2>Frequently Asked Questions</h2>
 
@@ -563,6 +652,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>FSA Direct rates (May 2026): ownership 5.50%, operating 5.25%, emergency 3.75%, microloan 5.25%</li>
+        <li>Direct loan limits: $600K ownership, $400K operating, $50K microloan, $500K emergency</li>
+        <li>Guaranteed loans go up to $2,236,000 through a commercial bank with FSA backing</li>
+        <li>In FY2024, FSA issued approximately $5.8 billion in loans to over 115,000 farmers</li>
+        <li>All FSA rates are fixed for life, set quarterly by the Treasury, with no prepayment penalties</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="/pages/usda-direct-vs-guaranteed.html" class="rr-card"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Comparison</div><div class="rr-title">FSA Direct vs. Guaranteed Loans</div><div class="rr-desc">Full side-by-side comparison with a decision guide.</div></div></a>
       <a href="/pages/usda-how-to-apply.html" class="rr-card"><div class="rr-icon info"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--info)" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg></div><div><div class="rr-label">How-To Guide</div><div class="rr-title">How to Apply for a USDA Farm Loan</div><div class="rr-desc">7-step walkthrough and document checklist.</div></div></a>

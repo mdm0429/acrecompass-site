@@ -13,6 +13,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Harvest Season Cash Flow: How to Bridge the Gap Between Harvest and Payment — AcreCompass</title>
 <meta name="description" content="Bridge the 60–120 day gap between harvest and payment. Compare harvest cash flow options including USDA Marketing Assistance Loans, operating lines of credit, and grain storage strategies.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AcreCompass">
+<meta property="og:title" content="Harvest Season Cash Flow: How to Bridge the Gap Between Harvest and Payment — AcreCompass">
+<meta property="og:description" content="Bridge the 60–120 day gap between harvest and payment. Compare harvest cash flow options including USDA Marketing Assistance Loans, operating lines of credit, and grain storage strategies.">
+<meta property="og:url" content="https://acrecompass.com/seasonal-harvest-financing.html">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg-page:#FAF8F4;--bg-surface:#F2EDE3;--bg-subtle:#E8DFD0;--bg-invert:#1A1208;--bg-brand:#F0F7F1;--bg-cta:#FFF8ED;--bg-info:#F0F5FB;--text-primary:#1A1208;--text-secondary:#6B5C47;--text-muted:#8C7A62;--text-invert:#FAF8F4;--text-brand:#2D7D2D;--text-brand-hover:#1F5C1F;--text-cta:#E8860A;--brand-subtle:#D9EDD9;--brand-light:#7CBD7C;--brand:#2D7D2D;--brand-hover:#1F5C1F;--brand-active:#164516;--cta-subtle:#FEECC8;--cta:#E8860A;--cta-hover:#C06A05;--cta-active:#994F03;--info-subtle:#D8E8F5;--info:#2B6CAD;--info-hover:#1C4F82;--info-dark:#0C2438;--border-subtle:#E8DFD0;--border:#D4C6B0;--border-brand:#7CBD7C;--border-cta:#FBC050;--font-display:'Lora',Georgia,serif;--font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',Menlo,monospace;--radius-sm:.25rem;--radius-md:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow-sm:0 1px 3px 0 rgba(26,18,8,.08);--shadow-md:0 4px 6px -1px rgba(26,18,8,.07),0 2px 4px -2px rgba(26,18,8,.05);--transition-fast:150ms cubic-bezier(.4,0,.2,1);}
@@ -153,6 +158,44 @@ p{color:var(--text-secondary);}
 .footer-col a{display:block;font-size:.82rem;color:rgba(250,248,244,.5);margin-bottom:.4rem;}
 .footer-col a:hover{color:var(--text-invert);}
 .footer-bottom{display:flex;justify-content:space-between;gap:2rem;padding-top:1.5rem;font-size:.75rem;color:rgba(250,248,244,.3);}
+
+/* Quick Recap */
+.quick-recap{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-xl);padding:1.25rem 1.5rem;margin-bottom:1.5rem;}
+.quick-recap h4{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--text-primary);margin:0 0 .625rem;}
+.quick-recap ul{list-style:none;padding:0;margin:0;}
+.quick-recap li{position:relative;padding-left:1.125rem;font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin-bottom:.375rem;}
+.quick-recap li:last-child{margin-bottom:0;}
+.quick-recap li::before{content:"";position:absolute;left:0;top:.5em;width:6px;height:6px;background:var(--brand);border-radius:50%;}
+
+/* Pros/Cons */
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr;}}
+.pros-cons .pros,.pros-cons .cons{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.125rem 1.25rem;}
+.pros-cons h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 .625rem;}
+.pros-cons .pros h4{color:#2D7D2D;}
+.pros-cons .cons h4{color:#C53030;}
+.pros-cons ul{list-style:none;padding:0;margin:0;}
+.pros-cons li{position:relative;padding-left:1.25rem;font-size:.84rem;line-height:1.5;color:var(--text-secondary);margin-bottom:.375rem;}
+.pros-cons .pros li::before{content:"+";position:absolute;left:0;font-weight:700;color:#2D7D2D;}
+.pros-cons .cons li::before{content:"\2013";position:absolute;left:0;font-weight:700;color:#C53030;}
+/* Who For */
+.who-for{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.who-for h4{font-family:var(--font-sans);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-primary);margin:0 0 .5rem;}
+.who-for p{font-size:.85rem;line-height:1.55;color:var(--text-secondary);margin:0 0 .75rem;}
+.who-for p:last-child{margin-bottom:0;}
+.who-for strong{color:var(--text-primary);}
+
+/* Key Stat Callout */
+.key-stat{background:linear-gradient(135deg,var(--bg-surface),rgba(139,92,42,.06));border-left:3px solid var(--brand);border-radius:0 var(--radius-lg) var(--radius-lg) 0;padding:.875rem 1.25rem;margin:1.25rem 0;font-size:.85rem;line-height:1.5;color:var(--text-secondary);}
+.key-stat strong{color:var(--text-primary);}
+/* Definition List */
+dl.terms{background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin:1.5rem 0;}
+dl.terms dt{font-family:var(--font-display);font-size:.875rem;font-weight:700;color:var(--text-primary);margin-top:.875rem;}
+dl.terms dt:first-child{margin-top:0;}
+dl.terms dd{font-size:.84rem;line-height:1.55;color:var(--text-secondary);margin:0.25rem 0 0 0;padding-left:0;}
+/* Calculator Ref */
+.calc-ref{display:inline-flex;align-items:center;gap:.375rem;background:var(--bg-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.5rem 1rem;margin:.75rem 0;font-size:.82rem;color:var(--text-brand);font-weight:600;text-decoration:none;transition:box-shadow var(--transition-fast);}
+.calc-ref:hover{box-shadow:var(--shadow-sm);}
 </style>
 <script type="application/ld+json">
 {
@@ -319,11 +362,18 @@ p{color:var(--text-secondary);}
       <h3>Key Takeaways</h3>
       <ul>
         <li>USDA Marketing Assistance Loans (MAL) let you borrow against stored grain at very low rates (~1.25%) — often the cheapest bridge financing available to grain farmers.</li>
-        <li>A grain storage loan through FSA can fund in days and doesn't require a disaster declaration — it's available to any eligible producer with stored grain.</li>
+        <li>A grain storage loan through FSA (Farm Service Agency) can fund in days and doesn't require a disaster declaration — it's available to any eligible producer with stored grain.</li>
         <li>Farm operating lines of credit are the most flexible bridge option and can be drawn against as needed between harvest and grain sale.</li>
         <li>Crop insurance indemnity payments typically arrive 30–60 days after you file a claim — don't budget these as immediate cash.</li>
         <li>Forward contracts and marketing agreements can pre-lock cash flow before harvest, eliminating some of the gap entirely.</li>
       </ul>
+    </div>
+
+    <div class="who-for">
+      <h4>Who This Is For</h4>
+      <p>Grain farmers navigating the 60–120 day cash flow gap between harvest expenses and grain sale revenue. Especially useful for operations considering storage strategies to capture basis improvement over winter months.</p>
+      <h4>Who Should Look Elsewhere</h4>
+      <p>Livestock operations and farms that sell production at harvest (no storage strategy) face different cash flow timing — focus on operating line renewal instead.</p>
     </div>
 
     <h2 id="cash-flow-gap">The Harvest Cash Flow Gap</h2>
@@ -392,7 +442,7 @@ p{color:var(--text-secondary);}
     <h2 id="commercial-bridge">Commercial Bridge Options</h2>
     <p>For situations where MAL doesn't apply (livestock operations, specialty crops without a USDA loan rate), or when your operating line is fully drawn, commercial lenders offer short-term bridge financing:</p>
     <table class="compare-table">
-      <thead><tr><th>Lender</th><th>APR Range</th><th>Max Amount</th><th>Funding Speed</th></tr></thead>
+      <thead><tr><th>Lender</th><th>APR (annual percentage rate) Range</th><th>Max Amount</th><th>Funding Speed</th></tr></thead>
       <tbody>
         <tr><td><strong>National Funding</strong></td><td class="mono">7–24%</td><td class="mono">$500,000</td><td class="mono">24 hours</td></tr>
         <tr><td><strong>Fora Financial</strong></td><td class="mono">7–35%</td><td class="mono">$1.4M</td><td class="mono">24–48 hours</td></tr>
@@ -492,6 +542,16 @@ p{color:var(--text-secondary);}
 <section class="rr">
   <div class="rr-inner">
     <h3>Related Resources</h3>
+    <div class="quick-recap">
+      <h4>Quick Recap</h4>
+      <ul>
+        <li>USDA Marketing Assistance Loans (MAL): ~1.25% rate for 9 months through the CCC — the cheapest harvest financing available</li>
+        <li>Harvest creates a 60–120 day cash flow gap between expenses at combining and revenue from grain sales</li>
+        <li>Basis improvement from harvest (October) to spring delivery (April–May) typically adds 20–40 cents per bushel</li>
+        <li>Storage loan math: 25-cent basis gain on 50,000 bushels =     2,500 gross, minus $7,000 storage financing = $5,500 net</li>
+        <li>Crop insurance payments arrive 45–75 days after filing — factor this lag into your post-harvest cash flow plan</li>
+      </ul>
+    </div>
     <div class="rr-grid">
       <a href="seasonal-spring-planting.html" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M12 2a10 10 0 0 1 10 10"/><path d="M12 2v4M2 12h4"/></svg></div><div><div class="rr-label">Seasonal Guide</div><div class="rr-title">Spring Planting Loans</div><div class="rr-desc">Operating financing before the season starts.</div></div></a>
       <a href="#" class="rr-card"><div class="rr-icon brand"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div><div><div class="rr-label">Guide</div><div class="rr-title">Operating Loans Guide 2026</div><div class="rr-desc">Full guide to operating lines of credit.</div></div></a>
